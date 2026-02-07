@@ -1,51 +1,51 @@
 // src/storage.ts
 import { Platform } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
-async function getSecureStore() {
-    if (Platform.OS === "web") return null;
-    const mod = await import("expo-secure-store");
-    return mod;
-}
-
+/**
+ * K/V storage used for node identity + ping queue.
+ * For this pilot we want RELIABILITY over secrecy.
+ *
+ * - native (ios/android): AsyncStorage
+ * - web: window.localStorage
+ */
 
 export async function kvGet(key: string): Promise<string | null> {
-    if (Platform.OS === "web") {
-        try {
-            return window.localStorage.getItem(key);
-        } catch {
-            return null;
-        }
-    }
-
     try {
-        return await SecureStore?.getItemAsync(key);
-    } catch {
+        if (Platform.OS === "web") {
+            if (typeof window === "undefined") return null;
+            return window.localStorage.getItem(key);
+        }
+        const v = await AsyncStorage.getItem(key);
+        return v ?? null;
+    } catch (e) {
+        console.log(`[storage] kvGet failed key=${key} err=${String(e)}`);
         return null;
     }
 }
 
 export async function kvSet(key: string, value: string): Promise<void> {
-    if (Platform.OS === "web") {
-        try {
-            window.localStorage.setItem(key, value);
-        } catch { }
-        return;
-    }
-
     try {
-        await SecureStore?.setItemAsync(key, value);
-    } catch { }
+        if (Platform.OS === "web") {
+            if (typeof window === "undefined") return;
+            window.localStorage.setItem(key, value);
+            return;
+        }
+        await AsyncStorage.setItem(key, value);
+    } catch (e) {
+        console.log(`[storage] kvSet failed key=${key} err=${String(e)}`);
+    }
 }
 
 export async function kvDel(key: string): Promise<void> {
-    if (Platform.OS === "web") {
-        try {
-            window.localStorage.removeItem(key);
-        } catch { }
-        return;
-    }
-
     try {
-        await SecureStore?.deleteItemAsync(key);
-    } catch { }
+        if (Platform.OS === "web") {
+            if (typeof window === "undefined") return;
+            window.localStorage.removeItem(key);
+            return;
+        }
+        await AsyncStorage.removeItem(key);
+    } catch (e) {
+        console.log(`[storage] kvDel failed key=${key} err=${String(e)}`);
+    }
 }
