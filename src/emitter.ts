@@ -18,9 +18,7 @@ function platform() {
 function headers() {
     return {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${CONFIG.supabaseAnonKey}`,
-        "apikey": CONFIG.supabaseAnonKey,
-        "x-pilot-key": CONFIG.pilotKey, // use CONFIG consistently
+        "x-pilot-key": CONFIG.pilotKey,
     } as Record<string, string>;
 }
 

@@ -1,0 +1,5 @@
+[functions.status]
+verify_jwt = false
+
+[functions.ingest_ping]
+verify_jwt = false

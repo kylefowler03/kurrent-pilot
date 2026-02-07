@@ -9,12 +9,10 @@ export async function fetchStatusBundle() {
   const res = await fetch(url, {
     method: "GET",
     headers: {
-      apikey: CONFIG.supabaseAnonKey,
-      Authorization: `Bearer ${CONFIG.supabaseAnonKey}`,
       "x-pilot-key": CONFIG.pilotKey,
-      // NOTE: no Content-Type on GET
     },
   });
+
 
   const text = await res.text();
 
