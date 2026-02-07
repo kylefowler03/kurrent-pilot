@@ -1,4 +1,5 @@
-import AsyncStorage from "@react-native-async-storage/async-storage";
+// src/queue.ts
+import { kvGet, kvSet, kvDel } from "./storage";
 
 const KEY = "kurrent_ping_queue_v1";
 
@@ -10,7 +11,7 @@ export type QueuedPing = {
 };
 
 async function load(): Promise<QueuedPing[]> {
-    const raw = await AsyncStorage.getItem(KEY);
+    const raw = await kvGet(KEY);
     if (!raw) return [];
     try {
         const parsed = JSON.parse(raw);
@@ -21,7 +22,7 @@ async function load(): Promise<QueuedPing[]> {
 }
 
 async function save(items: QueuedPing[]) {
-    await AsyncStorage.setItem(KEY, JSON.stringify(items));
+    await kvSet(KEY, JSON.stringify(items));
 }
 
 export async function enqueuePing(payload: any): Promise<QueuedPing> {
@@ -65,5 +66,5 @@ export async function queueSize(): Promise<number> {
 }
 
 export async function clearQueue() {
-    await AsyncStorage.removeItem(KEY);
+    await kvDel(KEY);
 }

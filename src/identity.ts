@@ -1,4 +1,5 @@
-import * as SecureStore from "expo-secure-store";
+// src/identity.ts
+import { kvGet, kvSet } from "./storage";
 
 const KEY = "kurrent_install_id_v1";
 
@@ -12,10 +13,10 @@ function uuidv4(): string {
 }
 
 export async function getNodeId(): Promise<string> {
-    let id = await SecureStore.getItemAsync(KEY);
+    let id = await kvGet(KEY);
     if (!id) {
         id = uuidv4();
-        await SecureStore.setItemAsync(KEY, id);
+        await kvSet(KEY, id);
     }
     return id;
 }
