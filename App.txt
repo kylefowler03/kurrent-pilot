@@ -1,0 +1,261 @@
+import React, { useCallback, useEffect, useRef, useState } from "react";
+import { SafeAreaView, Text, View, Button, ScrollView } from "react-native";
+import { AppState } from "react-native";
+
+import { sendPing, flushPingQueue } from "./src/emitter";
+import { fetchStatusBundle } from "./src/statusClient";
+
+function clamp01(x: number) {
+    return Math.max(0, Math.min(1, x));
+}
+
+function bar(x: number, width = 20) {
+    const n = Math.round(clamp01(x) * width);
+    return "▮".repeat(n) + " ".repeat(width - n);
+}
+
+
+type TrendPoint = { bucket: string; dev_total: number; tau: number };
+
+export default function App() {
+
+    const [emitting, setEmitting] = useState(false);
+    const [lastPing, setLastPing] = useState<any>(null);
+
+    const [statusJson, setStatusJson] = useState<any>(null);
+    const [statusErr, setStatusErr] = useState<string | null>(null);
+    const [statusLoading, setStatusLoading] = useState(false);
+    const [lastRefreshedAt, setLastRefreshedAt] = useState<string>("—");
+
+    const devSeries = statusJson?.node?.node_deviation_series ?? [];
+
+    const dev =
+        statusJson?.node?.node_deviation_latest ??
+        statusJson?.node?.node_deviation_latest_stable ??
+        null;
+
+    const ref = statusJson?.node?.reference_for_node ?? null;
+
+    // Trend buffer (last N buckets)
+    const TREND_N = 24; // e.g. last 24 buckets
+    const [trend, setTrend] = useState<TrendPoint[]>([]);
+
+    // Prevent overlapping refreshes
+    const refreshingRef = useRef(false);
+
+    const refreshStatus = useCallback(async () => {
+        console.log("REFRESH @", new Date().toISOString());
+        if (refreshingRef.current) return; // drop overlap
+        refreshingRef.current = true;
+
+
+
+        setStatusLoading(true);
+        setStatusErr(null);
+
+        try {
+            const r = await fetchStatusBundle(); // MUST NOT throw silently now
+            if (!r?.ok || !r?.json) {
+                setStatusErr(`Status failed: ${r?.status ?? "?"} ${r?.body ?? ""}`.trim());
+                return;
+            }
+
+            setStatusJson(r.json);
+            setLastRefreshedAt(new Date().toISOString());
+
+            // Update trend if node bundle exists
+            const ts = r.json?.node?.trust_state;
+            const dev = r.json?.node?.node_deviation_latest;
+            if (ts && dev) {
+                const point: TrendPoint = {
+                    bucket: String(dev.time_bucket ?? ts.last_bucket ?? ""),
+                    dev_total: Number(dev.dev_total ?? 0),
+                    tau: Number(ts.tau ?? 0),
+                };
+
+                setTrend((prev) => {
+                    // de-dupe by bucket (keep latest for that bucket)
+                    const next = prev.filter((p) => p.bucket !== point.bucket).concat(point);
+                    return next.slice(-TREND_N);
+                });
+            }
+        } catch (e: any) {
+            setStatusErr(`Status threw: ${e?.message ?? String(e)}`);
+        } finally {
+            setStatusLoading(false);
+            refreshingRef.current = false;
+        }
+    }, []);
+
+    // Auto-refresh status every 10s (avoid setInterval overlap patterns)
+    useEffect(() => {
+        let cancelled = false;
+        let t: any;
+
+        const loop = async () => {
+            if (cancelled) return;
+            await refreshStatus();
+            if (cancelled) return;
+            t = setTimeout(loop, 10000);
+        };
+
+        loop();
+        return () => {
+            cancelled = true;
+            if (t) clearTimeout(t);
+        };
+    }, [refreshStatus]);
+
+    // Emitter loop
+    useEffect(() => {
+        if (!emitting) return;
+        const interval = setInterval(() => {
+            sendPing();
+        }, 3000);
+        return () => clearInterval(interval);
+    }, [emitting]);
+
+    // Flush queue loop + app foreground flush
+    useEffect(() => {
+        const interval = setInterval(() => {
+            flushPingQueue({ batchSize: 10 });
+        }, 5000);
+
+        const sub = AppState.addEventListener("change", (state) => {
+            if (state === "active") {
+                flushPingQueue({ batchSize: 25 });
+                refreshStatus();
+            }
+        });
+
+        return () => {
+            clearInterval(interval);
+            sub.remove();
+        };
+    }, [refreshStatus]);
+
+    return (
+        <SafeAreaView style={{ flex: 1 }}>
+            <View style={{ padding: 12 }}>
+                <Button
+                    title={emitting ? "Stop Emitter" : "Start Emitter"}
+                    onPress={() => setEmitting((v) => !v)}
+                />
+
+                <Button
+                    title="Jitter Test (High → Low)"
+                    onPress={async () => {
+                        setEmitting(false);
+
+                        await sendPing({
+                            stability_score: 0.8,
+                            confidence: 0.9,
+                            noise_class: "low",
+                        });
+
+                        await sendPing({
+                            stability_score: 0.2,
+                            confidence: 0.4,
+                            noise_class: "high",
+                        });
+
+                        await refreshStatus();
+                    }}
+                />
+
+                <Button
+                    title="Ping Once"
+                    onPress={async () => {
+                        const r = await sendPing();
+                        setLastPing(r);
+                        refreshStatus();
+                    }}
+                />
+
+                <Button
+                    title={statusLoading ? "Refreshing..." : "Refresh Status"}
+                    onPress={refreshStatus}
+                    disabled={statusLoading}
+                />
+                <Text style={{ marginTop: 4, fontSize: 12 }}>
+                    Last refreshed: {lastRefreshedAt}
+                </Text>
+
+                {statusErr ? <Text style={{ marginTop: 8 }}>❌ {statusErr}</Text> : null}
+
+                {/* Lightweight trend view */}
+                <View style={{ marginTop: 12 }}>
+                    <Text style={{ fontWeight: "700" }}>Trend (last {trend.length})</Text>
+                    {trend.length === 0 ? (
+                        <Text>—</Text>
+                    ) : (
+                        trend
+                            .slice()
+                            .reverse()
+                            .map((p) => (
+                                <Text key={p.bucket}>
+                                    {p.bucket}: dev={p.dev_total.toFixed(3)} | tau={p.tau.toFixed(3)}
+                                </Text>
+                            ))
+                    )}
+                </View>
+
+                {statusJson?.node?.trust_state ? (
+                    <View style={{ marginTop: 8 }}>
+                        <Text>node_key: {statusJson.node.node_key}</Text>
+                        <Text>tau: {Number(statusJson.node.trust_state.tau).toFixed(3)}</Text>
+                        <Text>k_bar: {Number(statusJson.node.trust_state.k_bar).toFixed(3)}</Text>
+                        <Text>last_bucket: {statusJson.node.trust_state.last_bucket}</Text>
+
+                        <Text style={{ marginTop: 8, fontWeight: "700" }}>Field</Text>
+                        {ref ? (
+                            <>
+                                <Text>ref_stability: {Number(ref.ref_stability).toFixed(3)}</Text>
+                                <Text>ref_confidence: {Number(ref.ref_confidence).toFixed(3)}</Text>
+                                <Text>dispersion: {Number(ref.dispersion).toFixed(3)}</Text>
+                            </>
+                        ) : (
+                            <Text>Field: (waiting for reference row...)</Text>
+                        )}
+
+                        <Text style={{ marginTop: 8, fontWeight: "700" }}>Deviation</Text>
+
+                        {dev ? (
+                            <>
+                                <Text>dev_total: {Number(dev.dev_total).toFixed(3)}</Text>
+                                <Text>n_samples: {dev.n_samples}</Text>
+                                <Text>bucket: {dev.time_bucket}</Text>
+                            </>
+                        ) : (
+                            <Text>Deviation: (waiting for first aggregation bucket...)</Text>
+                        )}
+                        <Text style={{ marginTop: 12, fontWeight: "700" }}>Trend (dev_total last {devSeries.length})</Text>
+
+                        {devSeries.length > 0 ? (
+                            <View style={{ marginTop: 6 }}>
+                                {devSeries.slice(-12).map((r: any) => (
+                                    <Text key={String(r.time_bucket)} style={{ fontFamily: "Menlo", fontSize: 12 }}>
+                                        {String(r.time_bucket).slice(-6)}  {Number(r.dev_total).toFixed(3)}  {bar(Number(r.dev_total), 16)}  n={r.n_samples}
+                                    </Text>
+                                ))}
+                            </View>
+                        ) : (
+                            <Text style={{ marginTop: 6 }}>No deviation series yet (waiting for aggregation)…</Text>
+                        )}
+
+                    </View>
+                ) : (
+                    <Text style={{ marginTop: 8 }}>No node bundle yet.</Text>
+                )}
+            </View>
+
+            <ScrollView style={{ flex: 1, padding: 12 }}>
+                <Text style={{ fontWeight: "bold" }}>Last Ping</Text>
+                <Text selectable>{JSON.stringify(lastPing, null, 2)}</Text>
+
+                <Text style={{ fontWeight: "bold", marginTop: 16 }}>Last Status Bundle</Text>
+                <Text selectable>{JSON.stringify(statusJson, null, 2)}</Text>
+            </ScrollView>
+        </SafeAreaView>
+    );
+}

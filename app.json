@@ -2,6 +2,9 @@
   "expo": {
     "name": "kurrent-emitter",
     "slug": "kurrent-emitter",
+    "extra": {
+      "pilotKey": "gKbD6tTb07fc7ezmbpujG8Vn4FSmJKSpSgGYKxdwAHdV1kBtTU"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +28,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
