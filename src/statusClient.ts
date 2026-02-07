@@ -1,18 +1,18 @@
+// src/statusClient.ts
 import { CONFIG } from "./config";
 import { getNodeId } from "./identity";
 
 export async function fetchStatusBundle() {
   const nodeKey = await getNodeId();
-  const url =
-    `${CONFIG.supabaseUrl}/functions/v1/status?node_key=${encodeURIComponent(nodeKey)}`;
+  const url = `${CONFIG.statusUrl}?node_key=${encodeURIComponent(nodeKey)}`;
 
   const res = await fetch(url, {
     method: "GET",
     headers: {
-      "Authorization": `Bearer ${CONFIG.supabaseAnonKey}`,
-      "apikey": CONFIG.supabaseAnonKey,
+      apikey: CONFIG.supabaseAnonKey,
+      Authorization: `Bearer ${CONFIG.supabaseAnonKey}`,
       "x-pilot-key": CONFIG.pilotKey,
-      "Content-Type": "application/json",
+      // NOTE: no Content-Type on GET
     },
   });
 
@@ -23,7 +23,11 @@ export async function fetchStatusBundle() {
     status: res.status,
     body: text,
     json: (() => {
-      try { return JSON.parse(text); } catch { return null; }
+      try {
+        return JSON.parse(text);
+      } catch {
+        return null;
+      }
     })(),
   };
 }
