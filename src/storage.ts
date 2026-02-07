@@ -1,12 +1,12 @@
 // src/storage.ts
 import { Platform } from "react-native";
 
-let SecureStore: any = null;
-if (Platform.OS !== "web") {
-    // Lazy-load to avoid web bundling issues
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    SecureStore = require("expo-secure-store");
+async function getSecureStore() {
+    if (Platform.OS === "web") return null;
+    const mod = await import("expo-secure-store");
+    return mod;
 }
+
 
 export async function kvGet(key: string): Promise<string | null> {
     if (Platform.OS === "web") {
