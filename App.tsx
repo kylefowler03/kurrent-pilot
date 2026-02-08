@@ -11,7 +11,7 @@ import {
 import { AppState } from "react-native";
 
 import { sendPing, flushPingQueue } from "./src/emitter";
-import { fetchStatusBundle } from "./src/statusClient";
+import { fetchStatusBundle, fetchIngestHealth } from "./src/statusClient";
 
 function clamp01(x: number) {
     return Math.max(0, Math.min(1, x));
@@ -40,6 +40,9 @@ export default function App() {
     const [statusErr, setStatusErr] = useState<string | null>(null);
     const [statusLoading, setStatusLoading] = useState(false);
     const [lastRefreshedAt, setLastRefreshedAt] = useState<string>("—");
+
+    // NEW: ingest health overlay
+    const [ingestHealth, setIngestHealth] = useState<any>(null);
 
     // NEW: manual signal controls (instrumentation)
     const [baseKText, setBaseKText] = useState("0.25");
@@ -74,6 +77,7 @@ export default function App() {
         setStatusErr(null);
 
         try {
+            // 1) existing status bundle
             const r = await fetchStatusBundle();
             if (!r?.ok || !r?.json) {
                 setStatusErr(`Status failed: ${r?.status ?? "?"} ${r?.body ?? ""}`.trim());
@@ -97,6 +101,15 @@ export default function App() {
                     const next = prev.filter((p) => p.bucket !== point.bucket).concat(point);
                     return next.slice(-TREND_N);
                 });
+            }
+
+            // 2) NEW: ingest health overlay (dummy check + state)
+            const ih = await fetchIngestHealth();
+            if (ih?.ok) {
+                setIngestHealth(ih.json);
+            } else {
+                // Don’t fail the whole status refresh; just log the error
+                console.log("[ingest_health] fetch failed", ih);
             }
         } catch (e: any) {
             setStatusErr(`Status threw: ${e?.message ?? String(e)}`);
@@ -287,13 +300,39 @@ export default function App() {
                         disabled={statusLoading}
                     />
 
-                    <Text style={{ fontSize: 12 }}>
-                        Last refreshed: {lastRefreshedAt}
-                    </Text>
+                    <Text style={{ fontSize: 12 }}>Last refreshed: {lastRefreshedAt}</Text>
 
-                    {statusErr ? (
-                        <Text style={{ marginTop: 6 }}>❌ {statusErr}</Text>
-                    ) : null}
+                    {statusErr ? <Text style={{ marginTop: 6 }}>❌ {statusErr}</Text> : null}
+                </View>
+
+                {/* NEW: Ingest Health panel */}
+                <View style={{ marginTop: 14, padding: 10, borderWidth: 1, borderRadius: 10 }}>
+                    <Text style={{ fontWeight: "700" }}>Ingest Health (field_ingest_health_v1)</Text>
+
+                    {ingestHealth ? (
+                        <>
+                            <Text>current_bucket: {ingestHealth.current_bucket ?? "—"}</Text>
+                            <Text>field_bucket: {ingestHealth.field_bucket ?? "—"}</Text>
+                            <Text>field_n_nodes: {ingestHealth.field_n_nodes ?? "—"}</Text>
+                            <Text>field_dominance: {Number(ingestHealth.field_dominance ?? 0).toFixed(3)}</Text>
+                            <Text>ref_k_weighted: {Number(ingestHealth.ref_k_weighted ?? 0).toFixed(3)}</Text>
+                            <Text>ref_n_samples: {ingestHealth.ref_n_samples ?? "—"}</Text>
+
+                            <Text style={{ marginTop: 8 }}>
+                                nodes_active_now: {ingestHealth.nodes_active_now ?? "—"} | nodes_recent:{" "}
+                                {ingestHealth.nodes_recent ?? "—"} | nodes_stale: {ingestHealth.nodes_stale ?? "—"}
+                            </Text>
+
+                            <Text style={{ marginTop: 8, fontWeight: "700" }}>Nodes (top 10)</Text>
+                            {(ingestHealth.nodes ?? []).slice(0, 10).map((n: any) => (
+                                <Text key={String(n.node_key)} style={{ fontFamily: "Menlo", fontSize: 12 }}>
+                                    {n.display_label}  last={n.buckets_since_last_ping}  pings/hr={n.pings_last_hour}
+                                </Text>
+                            ))}
+                        </>
+                    ) : (
+                        <Text>(waiting for ingest health… check console for [ingest_health])</Text>
+                    )}
                 </View>
 
                 {/* Telemetry summary */}
@@ -376,9 +415,7 @@ export default function App() {
                         <Text style={{ fontWeight: "700" }}>
                             {showDebug ? "▼ Debug (tap to collapse)" : "▶ Debug (tap to expand)"}
                         </Text>
-                        <Text style={{ fontSize: 12, marginTop: 4 }}>
-                            Last Ping + Last Status Bundle JSON
-                        </Text>
+                        <Text style={{ fontSize: 12, marginTop: 4 }}>Last Ping + Last Status Bundle JSON</Text>
                     </Pressable>
 
                     {showDebug ? (
