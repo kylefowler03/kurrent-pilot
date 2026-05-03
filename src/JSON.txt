@@ -1,0 +1,3391 @@
+https://wvyxaztfkkztjhyysttg.supabase.co
+
+
+P1 Q1
+
+[
+  {
+    "table_name": "active_nodes_1h_v1",
+    "column_count": 3
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_count": 8
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_count": 12
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_count": 19
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_count": 19
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_count": 26
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_count": 19
+  },
+  {
+    "table_name": "field_coherence_1h_v1_live",
+    "column_count": 19
+  },
+  {
+    "table_name": "field_continuity_1h_v1",
+    "column_count": 7
+  },
+  {
+    "table_name": "field_contrib_v1",
+    "column_count": 8
+  },
+  {
+    "table_name": "field_convergence_v1",
+    "column_count": 11
+  },
+  {
+    "table_name": "field_coupling_inputs_latest_v1",
+    "column_count": 7
+  },
+  {
+    "table_name": "field_coupling_top_latest_v1",
+    "column_count": 8
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "column_count": 13
+  },
+  {
+    "table_name": "field_coupling_window_latest_ui_v1",
+    "column_count": 11
+  },
+  {
+    "table_name": "field_coupling_window_top_latest_v1",
+    "column_count": 10
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "column_count": 10
+  },
+  {
+    "table_name": "field_dashboard_latest_v1",
+    "column_count": 27
+  },
+  {
+    "table_name": "field_events_v1",
+    "column_count": 13
+  },
+  {
+    "table_name": "field_expansion_hints_1h_v1",
+    "column_count": 17
+  },
+  {
+    "table_name": "field_expansion_hints_1h_v1_raw",
+    "column_count": 17
+  },
+  {
+    "table_name": "field_governance_gate_1h_v1",
+    "column_count": 17
+  },
+  {
+    "table_name": "field_governance_gate_1h_v1_raw",
+    "column_count": 17
+  },
+  {
+    "table_name": "field_governance_gate_calibration_7d_v1",
+    "column_count": 24
+  },
+  {
+    "table_name": "field_governance_gate_last_event_v1",
+    "column_count": 9
+  },
+  {
+    "table_name": "field_governance_gate_log_v1",
+    "column_count": 8
+  },
+  {
+    "table_name": "field_governance_gate_stability_1h_v1",
+    "column_count": 16
+  },
+  {
+    "table_name": "field_governance_gate_state_dwell_v1",
+    "column_count": 7
+  },
+  {
+    "table_name": "field_governance_gate_transitions_v1",
+    "column_count": 11
+  },
+  {
+    "table_name": "field_governance_mode_smoothed_latest_v1",
+    "column_count": 9
+  },
+  {
+    "table_name": "field_health",
+    "column_count": 7
+  },
+  {
+    "table_name": "field_health_v2",
+    "column_count": 9
+  },
+  {
+    "table_name": "field_ingest_health_v1",
+    "column_count": 11
+  },
+  {
+    "table_name": "field_ingest_health_v1_raw",
+    "column_count": 11
+  },
+  {
+    "table_name": "field_memory_latest_v1",
+    "column_count": 29
+  },
+  {
+    "table_name": "field_memory_v1",
+    "column_count": 29
+  },
+  {
+    "table_name": "field_params_current_v1",
+    "column_count": 5
+  },
+  {
+    "table_name": "field_params_v1",
+    "column_count": 5
+  },
+  {
+    "table_name": "field_participant_status_latest_labeled_v1",
+    "column_count": 24
+  },
+  {
+    "table_name": "field_participant_status_latest_v1",
+    "column_count": 22
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "column_count": 22
+  },
+  {
+    "table_name": "field_pilot_readiness_latest_v1",
+    "column_count": 11
+  },
+  {
+    "table_name": "field_pilot_readiness_latest_v1_raw",
+    "column_count": 11
+  },
+  {
+    "table_name": "field_public_status_latest_v1",
+    "column_count": 27
+  },
+  {
+    "table_name": "field_refresh_log_v1",
+    "column_count": 4
+  },
+  {
+    "table_name": "field_refresh_telemetry_latest_v1",
+    "column_count": 5
+  },
+  {
+    "table_name": "field_refresh_telemetry_v1",
+    "column_count": 5
+  },
+  {
+    "table_name": "field_regime_stats_24h",
+    "column_count": 7
+  },
+  {
+    "table_name": "field_regime_v1",
+    "column_count": 8
+  },
+  {
+    "table_name": "field_snapshot_5m_latest_v1",
+    "column_count": 20
+  },
+  {
+    "table_name": "field_snapshot_5m_v1",
+    "column_count": 20
+  },
+  {
+    "table_name": "field_snapshot_latest_v1",
+    "column_count": 15
+  },
+  {
+    "table_name": "field_snapshot_v1",
+    "column_count": 15
+  },
+  {
+    "table_name": "field_status_bundle_v1",
+    "column_count": 11
+  },
+  {
+    "table_name": "field_summary_1h_v1",
+    "column_count": 14
+  },
+  {
+    "table_name": "field_summary_1h_v1_raw",
+    "column_count": 14
+  },
+  {
+    "table_name": "field_thin_flag",
+    "column_count": 2
+  },
+  {
+    "table_name": "field_timeline_1h_v1",
+    "column_count": 15
+  },
+  {
+    "table_name": "field_trust_state_health_1h_v1",
+    "column_count": 10
+  },
+  {
+    "table_name": "field_trust_state_health_1h_v1_raw",
+    "column_count": 10
+  },
+  {
+    "table_name": "field_vitality_1h_v1",
+    "column_count": 18
+  },
+  {
+    "table_name": "field_vitality_1h_v1_raw",
+    "column_count": 18
+  },
+  {
+    "table_name": "field_vote_readiness_latest_v1",
+    "column_count": 17
+  },
+  {
+    "table_name": "field_weather_v1",
+    "column_count": 9
+  },
+  {
+    "table_name": "node_agg",
+    "column_count": 6
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "column_count": 9
+  },
+  {
+    "table_name": "node_deviation",
+    "column_count": 15
+  },
+  {
+    "table_name": "node_roles_v1",
+    "column_count": 10
+  },
+  {
+    "table_name": "node_trust_pilot_v1",
+    "column_count": 7
+  },
+  {
+    "table_name": "participant_labels_v1",
+    "column_count": 4
+  },
+  {
+    "table_name": "participant_map_v0",
+    "column_count": 2
+  },
+  {
+    "table_name": "pings",
+    "column_count": 8
+  },
+  {
+    "table_name": "reference_state",
+    "column_count": 7
+  },
+  {
+    "table_name": "reference_state_latest_v1",
+    "column_count": 7
+  },
+  {
+    "table_name": "trust_state",
+    "column_count": 6
+  },
+  {
+    "table_name": "trust_state_active_1h_v1",
+    "column_count": 7
+  },
+  {
+    "table_name": "trust_state_v1",
+    "column_count": 7
+  }
+]
+
+Q2
+
+[
+  {
+    "table_name": "active_nodes_1h_v1",
+    "column_name": "node_key",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "active_nodes_1h_v1",
+    "column_name": "last_ping_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "active_nodes_1h_v1",
+    "column_name": "last_ping_received_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_name": "anchor_id",
+    "data_type": "uuid",
+    "is_nullable": "NO",
+    "column_default": "gen_random_uuid()",
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_name": "label",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_name": "anchor_kind",
+    "data_type": "text",
+    "is_nullable": "NO",
+    "column_default": "'generic'::text",
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_name": "commitment",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_name": "pubkey",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_name": "is_active",
+    "data_type": "boolean",
+    "is_nullable": "NO",
+    "column_default": "true",
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_name": "created_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "NO",
+    "column_default": "now()",
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "column_name": "updated_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "NO",
+    "column_default": "now()",
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "time_bucket",
+    "data_type": "bigint",
+    "is_nullable": "NO",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "computed_at",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "NO",
+    "column_default": "now()",
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "z_w_eff",
+    "data_type": "double precision",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "z_dominance",
+    "data_type": "double precision",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "z_sigma_w",
+    "data_type": "double precision",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "z_abs_delta_ref",
+    "data_type": "double precision",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "delta_ref",
+    "data_type": "double precision",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "delta_dominance",
+    "data_type": "double precision",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "thin",
+    "data_type": "boolean",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "coherence_regime",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "flags",
+    "data_type": "ARRAY",
+    "is_nullable": "NO",
+    "column_default": "'{}'::text[]",
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "column_name": "top_nodes",
+    "data_type": "jsonb",
+    "is_nullable": "NO",
+    "column_default": "'[]'::jsonb",
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "ok",
+    "data_type": "boolean",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "now",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "bucket_ms",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "window_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "start_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "end_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "buckets_with_any_ping",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "coverage_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "buckets_empty",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "pings_total",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "avg_pings_per_bucket",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "stddev_pings_per_bucket",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "cadence_cv",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "longest_silence_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "longest_silence_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "trailing_silence_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "trailing_silence_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "active_nodes",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1",
+    "column_name": "top_contributors",
+    "data_type": "jsonb",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "ok",
+    "data_type": "boolean",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "now",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "bucket_ms",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "window_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "start_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "end_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "buckets_with_any_ping",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "coverage_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "buckets_empty",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "pings_total",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "avg_pings_per_bucket",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "stddev_pings_per_bucket",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "cadence_cv",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "longest_silence_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "longest_silence_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "trailing_silence_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "trailing_silence_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "active_nodes",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_1h_v1_live",
+    "column_name": "top_contributors",
+    "data_type": "jsonb",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "ok",
+    "data_type": "boolean",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "now",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "bucket_ms",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "window_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "start_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "end_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "buckets_with_any_ping",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "coverage_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "buckets_empty",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "pings_total",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "avg_pings_per_bucket",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "stddev_pings_per_bucket",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "cadence_cv",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "longest_silence_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "longest_silence_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "trailing_silence_buckets",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "trailing_silence_pct",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "active_nodes",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "top_contributors",
+    "data_type": "jsonb",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "coverage_01",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "cv_cap",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "trailing_silence_01",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "steadiness_01",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "silence_ok_01",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "cadence_score_0_1",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_cadence_score_1h_v1",
+    "column_name": "cadence_regime",
+    "data_type": "text",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "ok",
+    "data_type": "boolean",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "now",
+    "data_type": "timestamp with time zone",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "current_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "field_bucket",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "field_n_nodes",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "nodes_active_now",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "nodes_recent",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "nodes_stale",
+    "data_type": "bigint",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "field_dominance",
+    "data_type": "double precision",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "ref_k_weighted",
+    "data_type": "double precision",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "ref_n_samples",
+    "data_type": "integer",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "dispersion",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  },
+  {
+    "table_name": "field_coherence_1h_v1",
+    "column_name": "dominance_01",
+    "data_type": "numeric",
+    "is_nullable": "YES",
+    "column_default": null,
+    "character_maximum_length": null
+  }
+]
+
+Q3
+
+[
+  {
+    "table_name": "anchors_v1",
+    "constraint_name": "2200_29643_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "constraint_name": "2200_29643_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "constraint_name": "2200_29643_6_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "constraint_name": "2200_29643_7_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "constraint_name": "2200_29643_8_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "anchors_v1",
+    "constraint_name": "anchors_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "anchor_id"
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "constraint_name": "2200_20096_11_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "constraint_name": "2200_20096_12_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "constraint_name": "2200_20096_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "constraint_name": "2200_20096_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "constraint_name": "field_anomalies_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "time_bucket"
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_10_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_11_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_12_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_13_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_4_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_5_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_6_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_7_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_8_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "2200_20133_9_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "constraint_name": "field_coupling_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "time_bucket, node_a, node_b"
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "2200_20154_10_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "2200_20154_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "2200_20154_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "2200_20154_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "2200_20154_4_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "2200_20154_5_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "2200_20154_8_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "2200_20154_9_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "constraint_name": "field_coupling_window_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "anchor_bucket, node_b, window_buckets, node_a"
+  },
+  {
+    "table_name": "field_governance_gate_log_v1",
+    "constraint_name": "2200_22593_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_governance_gate_log_v1",
+    "constraint_name": "2200_22593_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_governance_gate_log_v1",
+    "constraint_name": "2200_22593_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_governance_gate_log_v1",
+    "constraint_name": "2200_22593_4_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_governance_gate_log_v1",
+    "constraint_name": "2200_22593_5_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_governance_gate_log_v1",
+    "constraint_name": "field_governance_gate_log_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "id"
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "2200_20176_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "2200_20176_28_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "2200_20176_29_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "2200_20176_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "2200_20176_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "2200_20176_4_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "2200_20176_5_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "2200_20176_6_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_memory_v1",
+    "constraint_name": "field_memory_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "anchor_bucket"
+  },
+  {
+    "table_name": "field_params_v1",
+    "constraint_name": "2200_20195_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_params_v1",
+    "constraint_name": "2200_20195_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_params_v1",
+    "constraint_name": "2200_20195_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_params_v1",
+    "constraint_name": "2200_20195_4_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_params_v1",
+    "constraint_name": "2200_20195_5_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_params_v1",
+    "constraint_name": "field_params_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "id"
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "2200_20215_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "2200_20215_22_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "2200_20215_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "2200_20215_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "2200_20215_4_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "2200_20215_5_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "2200_20215_6_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "2200_20215_7_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "constraint_name": "field_participant_status_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "node_key, time_bucket"
+  },
+  {
+    "table_name": "field_refresh_log_v1",
+    "constraint_name": "2200_23687_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_refresh_log_v1",
+    "constraint_name": "2200_23687_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_refresh_log_v1",
+    "constraint_name": "field_refresh_log_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "id"
+  },
+  {
+    "table_name": "field_refresh_telemetry_v1",
+    "constraint_name": "2200_23697_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_refresh_telemetry_v1",
+    "constraint_name": "2200_23697_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_refresh_telemetry_v1",
+    "constraint_name": "field_refresh_telemetry_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "id"
+  },
+  {
+    "table_name": "field_snapshot_5m_v1",
+    "constraint_name": "2200_173341_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_snapshot_5m_v1",
+    "constraint_name": "2200_173341_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "field_snapshot_5m_v1",
+    "constraint_name": "field_snapshot_5m_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "time_bucket"
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "2200_17512_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "2200_17512_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "2200_17512_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "2200_17512_4_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "2200_17512_5_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "2200_17512_6_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "node_agg_k_median_check",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "node_agg_node_key_time_bucket_key",
+    "constraint_type": "UNIQUE",
+    "columns": "node_key, time_bucket"
+  },
+  {
+    "table_name": "node_agg",
+    "constraint_name": "node_agg_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "id"
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "2200_29657_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "2200_29657_2_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "2200_29657_3_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "2200_29657_4_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "2200_29657_5_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "2200_29657_6_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "2200_29657_8_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "2200_29657_9_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "node_anchor_links_v1_anchor_id_fkey",
+    "constraint_type": "FOREIGN KEY",
+    "columns": "anchor_id"
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "node_anchor_links_v1_confidence_check",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "constraint_name": "node_anchor_links_v1_pkey",
+    "constraint_type": "PRIMARY KEY",
+    "columns": "link_id"
+  },
+  {
+    "table_name": "node_deviation",
+    "constraint_name": "2200_17705_10_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_deviation",
+    "constraint_name": "2200_17705_11_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_deviation",
+    "constraint_name": "2200_17705_12_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_deviation",
+    "constraint_name": "2200_17705_13_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_deviation",
+    "constraint_name": "2200_17705_14_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_deviation",
+    "constraint_name": "2200_17705_15_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  },
+  {
+    "table_name": "node_deviation",
+    "constraint_name": "2200_17705_1_not_null",
+    "constraint_type": "CHECK",
+    "columns": null
+  }
+]
+
+Q4
+
+[
+  {
+    "tablename": "anchors_v1",
+    "indexname": "anchors_v1_commitment_uq",
+    "indexdef": "CREATE UNIQUE INDEX anchors_v1_commitment_uq ON public.anchors_v1 USING btree (commitment) WHERE (commitment IS NOT NULL)"
+  },
+  {
+    "tablename": "anchors_v1",
+    "indexname": "anchors_v1_created_at_idx",
+    "indexdef": "CREATE INDEX anchors_v1_created_at_idx ON public.anchors_v1 USING btree (created_at DESC)"
+  },
+  {
+    "tablename": "anchors_v1",
+    "indexname": "anchors_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX anchors_v1_pkey ON public.anchors_v1 USING btree (anchor_id)"
+  },
+  {
+    "tablename": "field_anomalies_v1",
+    "indexname": "field_anomalies_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_anomalies_v1_pkey ON public.field_anomalies_v1 USING btree (time_bucket)"
+  },
+  {
+    "tablename": "field_cadence_1h_v1_mat",
+    "indexname": "field_cadence_1h_v1_mat_singleton_idx",
+    "indexdef": "CREATE UNIQUE INDEX field_cadence_1h_v1_mat_singleton_idx ON public.field_cadence_1h_v1_mat USING btree ((1))"
+  },
+  {
+    "tablename": "field_coupling_v1",
+    "indexname": "field_coupling_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_coupling_v1_pkey ON public.field_coupling_v1 USING btree (time_bucket, node_a, node_b)"
+  },
+  {
+    "tablename": "field_coupling_window_v1",
+    "indexname": "field_coupling_window_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_coupling_window_v1_pkey ON public.field_coupling_window_v1 USING btree (anchor_bucket, window_buckets, node_a, node_b)"
+  },
+  {
+    "tablename": "field_governance_gate_1h_v1_mat",
+    "indexname": "idx_governance_gate_mat_now",
+    "indexdef": "CREATE INDEX idx_governance_gate_mat_now ON public.field_governance_gate_1h_v1_mat USING btree (now DESC)"
+  },
+  {
+    "tablename": "field_governance_gate_log_v1",
+    "indexname": "field_governance_gate_log_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_governance_gate_log_v1_pkey ON public.field_governance_gate_log_v1 USING btree (id)"
+  },
+  {
+    "tablename": "field_memory_v1",
+    "indexname": "field_memory_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_memory_v1_pkey ON public.field_memory_v1 USING btree (anchor_bucket)"
+  },
+  {
+    "tablename": "field_params_v1",
+    "indexname": "field_params_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_params_v1_pkey ON public.field_params_v1 USING btree (id)"
+  },
+  {
+    "tablename": "field_participant_status_v1",
+    "indexname": "field_participant_status_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_participant_status_v1_pkey ON public.field_participant_status_v1 USING btree (time_bucket, node_key)"
+  },
+  {
+    "tablename": "field_refresh_log_v1",
+    "indexname": "field_refresh_log_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_refresh_log_v1_pkey ON public.field_refresh_log_v1 USING btree (id)"
+  },
+  {
+    "tablename": "field_refresh_telemetry_v1",
+    "indexname": "field_refresh_telemetry_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_refresh_telemetry_v1_pkey ON public.field_refresh_telemetry_v1 USING btree (id)"
+  },
+  {
+    "tablename": "field_snapshot_5m_v1",
+    "indexname": "field_snapshot_5m_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX field_snapshot_5m_v1_pkey ON public.field_snapshot_5m_v1 USING btree (time_bucket)"
+  },
+  {
+    "tablename": "field_trust_state_health_1h_v1_mat",
+    "indexname": "field_trust_state_health_1h_v1_mat_uq",
+    "indexdef": "CREATE UNIQUE INDEX field_trust_state_health_1h_v1_mat_uq ON public.field_trust_state_health_1h_v1_mat USING btree (mech_version)"
+  },
+  {
+    "tablename": "field_vitality_1h_v1_mat",
+    "indexname": "idx_vitality_mat_now",
+    "indexdef": "CREATE INDEX idx_vitality_mat_now ON public.field_vitality_1h_v1_mat USING btree (now DESC)"
+  },
+  {
+    "tablename": "node_agg",
+    "indexname": "node_agg_bucket_idx",
+    "indexdef": "CREATE INDEX node_agg_bucket_idx ON public.node_agg USING btree (time_bucket)"
+  },
+  {
+    "tablename": "node_agg",
+    "indexname": "node_agg_node_key_time_bucket_key",
+    "indexdef": "CREATE UNIQUE INDEX node_agg_node_key_time_bucket_key ON public.node_agg USING btree (node_key, time_bucket)"
+  },
+  {
+    "tablename": "node_agg",
+    "indexname": "node_agg_node_time_idx",
+    "indexdef": "CREATE INDEX node_agg_node_time_idx ON public.node_agg USING btree (node_key, time_bucket)"
+  },
+  {
+    "tablename": "node_agg",
+    "indexname": "node_agg_pkey",
+    "indexdef": "CREATE UNIQUE INDEX node_agg_pkey ON public.node_agg USING btree (id)"
+  },
+  {
+    "tablename": "node_agg",
+    "indexname": "node_agg_time_bucket_idx",
+    "indexdef": "CREATE INDEX node_agg_time_bucket_idx ON public.node_agg USING btree (time_bucket)"
+  },
+  {
+    "tablename": "node_anchor_links_v1",
+    "indexname": "node_anchor_links_v1_active_uq",
+    "indexdef": "CREATE UNIQUE INDEX node_anchor_links_v1_active_uq ON public.node_anchor_links_v1 USING btree (node_key, anchor_id) WHERE ((is_active = true) AND (unlinked_at IS NULL))"
+  },
+  {
+    "tablename": "node_anchor_links_v1",
+    "indexname": "node_anchor_links_v1_anchor_id_idx",
+    "indexdef": "CREATE INDEX node_anchor_links_v1_anchor_id_idx ON public.node_anchor_links_v1 USING btree (anchor_id)"
+  },
+  {
+    "tablename": "node_anchor_links_v1",
+    "indexname": "node_anchor_links_v1_linked_at_idx",
+    "indexdef": "CREATE INDEX node_anchor_links_v1_linked_at_idx ON public.node_anchor_links_v1 USING btree (linked_at DESC)"
+  },
+  {
+    "tablename": "node_anchor_links_v1",
+    "indexname": "node_anchor_links_v1_node_key_idx",
+    "indexdef": "CREATE INDEX node_anchor_links_v1_node_key_idx ON public.node_anchor_links_v1 USING btree (node_key)"
+  },
+  {
+    "tablename": "node_anchor_links_v1",
+    "indexname": "node_anchor_links_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX node_anchor_links_v1_pkey ON public.node_anchor_links_v1 USING btree (link_id)"
+  },
+  {
+    "tablename": "node_deviation",
+    "indexname": "idx_node_deviation_node_bucket_desc",
+    "indexdef": "CREATE INDEX idx_node_deviation_node_bucket_desc ON public.node_deviation USING btree (node_key, time_bucket DESC)"
+  },
+  {
+    "tablename": "node_deviation",
+    "indexname": "node_deviation_node_time_idx",
+    "indexdef": "CREATE INDEX node_deviation_node_time_idx ON public.node_deviation USING btree (node_key, time_bucket DESC)"
+  },
+  {
+    "tablename": "node_deviation",
+    "indexname": "node_deviation_pkey",
+    "indexdef": "CREATE UNIQUE INDEX node_deviation_pkey ON public.node_deviation USING btree (time_bucket, node_key)"
+  },
+  {
+    "tablename": "node_roles_v1",
+    "indexname": "node_roles_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX node_roles_v1_pkey ON public.node_roles_v1 USING btree (time_bucket, node_key)"
+  },
+  {
+    "tablename": "participant_labels_v1",
+    "indexname": "participant_labels_v1_pkey",
+    "indexdef": "CREATE UNIQUE INDEX participant_labels_v1_pkey ON public.participant_labels_v1 USING btree (node_key)"
+  },
+  {
+    "tablename": "pings",
+    "indexname": "pings_node_bucket_idx",
+    "indexdef": "CREATE INDEX pings_node_bucket_idx ON public.pings USING btree (node_key, time_bucket)"
+  },
+  {
+    "tablename": "pings",
+    "indexname": "pings_node_time_idx",
+    "indexdef": "CREATE INDEX pings_node_time_idx ON public.pings USING btree (node_key, time_bucket)"
+  },
+  {
+    "tablename": "pings",
+    "indexname": "pings_pkey",
+    "indexdef": "CREATE UNIQUE INDEX pings_pkey ON public.pings USING btree (id)"
+  },
+  {
+    "tablename": "pings",
+    "indexname": "pings_received_at_idx",
+    "indexdef": "CREATE INDEX pings_received_at_idx ON public.pings USING btree (received_at)"
+  },
+  {
+    "tablename": "pings",
+    "indexname": "pings_time_bucket_idx",
+    "indexdef": "CREATE INDEX pings_time_bucket_idx ON public.pings USING btree (time_bucket)"
+  },
+  {
+    "tablename": "reference_state",
+    "indexname": "idx_reference_state_time_bucket",
+    "indexdef": "CREATE INDEX idx_reference_state_time_bucket ON public.reference_state USING btree (time_bucket)"
+  },
+  {
+    "tablename": "reference_state",
+    "indexname": "reference_state_computed_at_idx",
+    "indexdef": "CREATE INDEX reference_state_computed_at_idx ON public.reference_state USING btree (computed_at DESC)"
+  },
+  {
+    "tablename": "reference_state",
+    "indexname": "reference_state_pkey",
+    "indexdef": "CREATE UNIQUE INDEX reference_state_pkey ON public.reference_state USING btree (time_bucket)"
+  },
+  {
+    "tablename": "trust_state",
+    "indexname": "trust_state_node_key_idx",
+    "indexdef": "CREATE INDEX trust_state_node_key_idx ON public.trust_state USING btree (node_key)"
+  },
+  {
+    "tablename": "trust_state",
+    "indexname": "trust_state_pkey",
+    "indexdef": "CREATE UNIQUE INDEX trust_state_pkey ON public.trust_state USING btree (node_key)"
+  },
+  {
+    "tablename": "trust_state",
+    "indexname": "trust_state_updated_at_idx",
+    "indexdef": "CREATE INDEX trust_state_updated_at_idx ON public.trust_state USING btree (updated_at)"
+  }
+]
+
+Q5
+
+[
+  {
+    "table_name": "anchors_v1",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_anomalies_v1",
+    "row_count": 418
+  },
+  {
+    "table_name": "field_cadence_1h_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_coherence_1h_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_coupling_v1",
+    "row_count": 2142
+  },
+  {
+    "table_name": "field_coupling_window_v1",
+    "row_count": 2
+  },
+  {
+    "table_name": "field_expansion_hints_1h_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_governance_gate_1h_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_governance_gate_log_v1",
+    "row_count": 166
+  },
+  {
+    "table_name": "field_ingest_health_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_memory_v1",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_params_v1",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_participant_status_v1",
+    "row_count": 2
+  },
+  {
+    "table_name": "field_pilot_readiness_latest_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_refresh_log_v1",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_refresh_telemetry_v1",
+    "row_count": 22671
+  },
+  {
+    "table_name": "field_snapshot_5m_v1",
+    "row_count": 43
+  },
+  {
+    "table_name": "field_summary_1h_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_trust_state_health_1h_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "field_vitality_1h_v1_mat",
+    "row_count": 1
+  },
+  {
+    "table_name": "node_agg",
+    "row_count": 1676
+  },
+  {
+    "table_name": "node_anchor_links_v1",
+    "row_count": 1
+  },
+  {
+    "table_name": "node_deviation",
+    "row_count": 1401
+  },
+  {
+    "table_name": "node_roles_v1",
+    "row_count": 1395
+  },
+  {
+    "table_name": "participant_labels_v1",
+    "row_count": 8
+  },
+  {
+    "table_name": "pings",
+    "row_count": 176867
+  },
+  {
+    "table_name": "reference_state",
+    "row_count": 446
+  },
+  {
+    "table_name": "trust_state",
+    "row_count": 12
+  }
+]
+
+Q6.1
+
+Failed to run sql query: ERROR:  42703: column "emitted_at" does not exist
+
+LINE 1: SELECT * FROM pings ORDER BY emitted_at DESC NULLS LAST LIMIT 3;
+
+Q6.2
+
+[
+  {
+    "id": 1693,
+    "node_key": "1a01ba29-c160-4e21-8136-2dc86b573101",
+    "time_bucket": 5905636,
+    "k_median": 0.225,
+    "n_pings": 30,
+    "computed_at": "2026-02-21 16:26:00.02579+00"
+  },
+  {
+    "id": 1692,
+    "node_key": "ce89a197-0ba9-4d3b-9c9c-37d5ad8b4d39",
+    "time_bucket": 5905635,
+    "k_median": 0.225,
+    "n_pings": 39,
+    "computed_at": "2026-02-21 16:21:00.199387+00"
+  },
+  {
+    "id": 1691,
+    "node_key": "b9dc43ab-560a-4d6a-8e3b-5c222f86368c",
+    "time_bucket": 5905635,
+    "k_median": 0.225,
+    "n_pings": 40,
+    "computed_at": "2026-02-21 16:21:00.199387+00"
+  }
+]
+
+Q6.3
+
+[
+  {
+    "time_bucket": 5905636,
+    "ref_stability": 0.225,
+    "ref_confidence": 0.225,
+    "ref_noise_class": "weighted",
+    "dispersion": 8.32667268468868e-18,
+    "n_samples": 30,
+    "computed_at": "2026-02-21 16:26:00.02579+00"
+  },
+  {
+    "time_bucket": 5905635,
+    "ref_stability": 0.225,
+    "ref_confidence": 0.225,
+    "ref_noise_class": "weighted",
+    "dispersion": 2.77555756156289e-17,
+    "n_samples": 242,
+    "computed_at": "2026-02-21 16:21:00.199387+00"
+  },
+  {
+    "time_bucket": 5905634,
+    "ref_stability": 0.225,
+    "ref_confidence": 0.225,
+    "ref_noise_class": "weighted",
+    "dispersion": 0,
+    "n_samples": 441,
+    "computed_at": "2026-02-21 16:16:00.241198+00"
+  }
+]
+
+Q6.4
+[
+  {
+    "time_bucket": 5905636,
+    "node_key": "1a01ba29-c160-4e21-8136-2dc86b573101",
+    "node_stability": 0.25,
+    "node_confidence": 0.9,
+    "node_noise_class": "low",
+    "ref_stability": 0.225,
+    "ref_confidence": 0.225,
+    "ref_noise_class": "weighted",
+    "dispersion": 8.32667268468868e-18,
+    "dev_stability": 0.025,
+    "dev_confidence": 0.675,
+    "dev_noise": 1,
+    "dev_total": 0.95,
+    "n_samples": 30,
+    "computed_at": "2026-02-21 18:21:00.017109+00"
+  },
+  {
+    "time_bucket": 5905635,
+    "node_key": "ce89a197-0ba9-4d3b-9c9c-37d5ad8b4d39",
+    "node_stability": 0.25,
+    "node_confidence": 0.899999999999999,
+    "node_noise_class": "low",
+    "ref_stability": 0.225,
+    "ref_confidence": 0.225,
+    "ref_noise_class": "weighted",
+    "dispersion": 2.77555756156289e-17,
+    "dev_stability": 0.025,
+    "dev_confidence": 0.674999999999999,
+    "dev_noise": 1,
+    "dev_total": 0.949999999999999,
+    "n_samples": 39,
+    "computed_at": "2026-02-21 18:16:00.182805+00"
+  },
+  {
+    "time_bucket": 5905635,
+    "node_key": "b9dc43ab-560a-4d6a-8e3b-5c222f86368c",
+    "node_stability": 0.25,
+    "node_confidence": 0.899999999999999,
+    "node_noise_class": "low",
+    "ref_stability": 0.225,
+    "ref_confidence": 0.225,
+    "ref_noise_class": "weighted",
+    "dispersion": 2.77555756156289e-17,
+    "dev_stability": 0.025,
+    "dev_confidence": 0.674999999999999,
+    "dev_noise": 1,
+    "dev_total": 0.949999999999999,
+    "n_samples": 40,
+    "computed_at": "2026-02-21 18:16:00.182805+00"
+  }
+]
+
+Q6.5
+
+[
+  {
+    "node_key": "1a01ba29-c160-4e21-8136-2dc86b573101",
+    "tau": 0.022370862780932,
+    "k_bar": 0.0223778902023776,
+    "last_bucket": 5905636,
+    "updated_at": "2026-02-21 18:21:00.017109+00",
+    "trust": 0.5
+  },
+  {
+    "node_key": "5dd7d7f1-c38f-4feb-b0e8-79d57a6e2636",
+    "tau": 0.0223690898105712,
+    "k_bar": 0.0223610040999899,
+    "last_bucket": 5905635,
+    "updated_at": "2026-02-21 18:16:00.182805+00",
+    "trust": 0.5
+  },
+  {
+    "node_key": "b9dc43ab-560a-4d6a-8e3b-5c222f86368c",
+    "tau": 0.0223708873132797,
+    "k_bar": 0.0223789595572477,
+    "last_bucket": 5905635,
+    "updated_at": "2026-02-21 18:16:00.182805+00",
+    "trust": 0.5
+  },
+  {
+    "node_key": "ce89a197-0ba9-4d3b-9c9c-37d5ad8b4d39",
+    "tau": 0.0223710522521558,
+    "k_bar": 0.022385302497531,
+    "last_bucket": 5905635,
+    "updated_at": "2026-02-21 18:16:00.182805+00",
+    "trust": 0.5
+  },
+  {
+    "node_key": "a6dee89a-1298-483a-b154-8467a3ac0199",
+    "tau": 0.0223707847078815,
+    "k_bar": 0.0223795339678206,
+    "last_bucket": 5905635,
+    "updated_at": "2026-02-21 18:16:00.182805+00",
+    "trust": 0.5
+  }
+]
+
+Q7
+
+[
+  {
+    "jobid": 12,
+    "schedule": "15 3 * * *",
+    "command": "select public.cleanup_field_state_v1(4032);",
+    "jobname": "cleanup_field_state_daily",
+    "active": true
+  },
+  {
+    "jobid": 16,
+    "schedule": "1-59/5 * * * *",
+    "command": "select public.tick_field_latest_v1();",
+    "jobname": "tick_field_5min_offset",
+    "active": true
+  },
+  {
+    "jobid": 17,
+    "schedule": "2-59/5 * * * *",
+    "command": " select public.write_field_snapshot_5m_v1(); ",
+    "jobname": "field_snapshot_5m",
+    "active": true
+  }
+]
+
+Q8
+
+[
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:47:00.015539+00",
+    "end_time": "2026-04-30 06:47:00.027064+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:46:00.165445+00",
+    "end_time": "2026-04-30 06:46:00.617723+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:42:00.018638+00",
+    "end_time": "2026-04-30 06:42:00.029068+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:41:00.015388+00",
+    "end_time": "2026-04-30 06:41:00.305574+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:37:00.045423+00",
+    "end_time": "2026-04-30 06:37:00.057233+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:36:00.01465+00",
+    "end_time": "2026-04-30 06:36:00.345409+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:32:00.03139+00",
+    "end_time": "2026-04-30 06:32:00.047542+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:31:00.460311+00",
+    "end_time": "2026-04-30 06:31:00.994147+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:27:00.020355+00",
+    "end_time": "2026-04-30 06:27:00.03371+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:26:00.22262+00",
+    "end_time": "2026-04-30 06:26:01.023137+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:22:00.022502+00",
+    "end_time": "2026-04-30 06:22:00.032484+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:21:00.096387+00",
+    "end_time": "2026-04-30 06:21:00.424638+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:17:00.021592+00",
+    "end_time": "2026-04-30 06:17:00.036808+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:16:00.190723+00",
+    "end_time": "2026-04-30 06:16:00.817907+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:12:00.028161+00",
+    "end_time": "2026-04-30 06:12:00.04485+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:11:00.016987+00",
+    "end_time": "2026-04-30 06:11:00.353794+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:07:00.018742+00",
+    "end_time": "2026-04-30 06:07:00.030891+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:06:00.180893+00",
+    "end_time": "2026-04-30 06:06:00.800442+00"
+  },
+  {
+    "jobid": 17,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:02:00.050833+00",
+    "end_time": "2026-04-30 06:02:00.069302+00"
+  },
+  {
+    "jobid": 16,
+    "status": "succeeded",
+    "return_message": "1 row",
+    "start_time": "2026-04-30 06:01:00.016874+00",
+    "end_time": "2026-04-30 06:01:00.436002+00"
+  }
+]
+
+Q9
+
+[
+  {
+    "extname": "pg_cron",
+    "extversion": "1.6.4"
+  },
+  {
+    "extname": "pg_stat_statements",
+    "extversion": "1.11"
+  },
+  {
+    "extname": "pgcrypto",
+    "extversion": "1.3"
+  },
+  {
+    "extname": "plpgsql",
+    "extversion": "1.0"
+  },
+  {
+    "extname": "supabase_vault",
+    "extversion": "0.3.1"
+  },
+  {
+    "extname": "uuid-ossp",
+    "extversion": "1.1"
+  }
+]
+
+Q10
+
+[
+  {
+    "tablename": "field_snapshot_5m_v1",
+    "policyname": "deny_all_auth",
+    "permissive": "RESTRICTIVE",
+    "roles": "{authenticated}",
+    "cmd": "ALL"
+  }
+]
+
+Q11
+
+[
+  {
+    "routine_name": "aggregate_pings_for_bucket",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "buckets_for_minutes",
+    "routine_type": "FUNCTION",
+    "return_type": "integer"
+  },
+  {
+    "routine_name": "cleanup_field_state_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_anomalies_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_coupling_for_bucket_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_coupling_latest_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_coupling_window_latest_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_coupling_window_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_memory_latest_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_memory_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_participant_status_latest_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_participant_status_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_field_tick_latest_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_node_deviation_recent",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_node_roles_for_bucket_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_reference_for_bucket",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_reference_recent",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_reference_state_weighted_for_bucket",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "compute_reference_state_weighted_latest",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "current_time_bucket",
+    "routine_type": "FUNCTION",
+    "return_type": "bigint"
+  },
+  {
+    "routine_name": "log_governance_gate_if_changed_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "mech_version_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "text"
+  },
+  {
+    "routine_name": "refresh_field_stats_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "set_participant_label_text_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "set_participant_label_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "set_participant_label_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "set_updated_at_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "trigger"
+  },
+  {
+    "routine_name": "tick_field_for_bucket_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "tick_field_latest_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "trimmed_mean",
+    "routine_type": "FUNCTION",
+    "return_type": "double precision"
+  },
+  {
+    "routine_name": "update_trust_for_bucket",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "update_trust_state_recent",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "upsert_anchor_link_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "uuid"
+  },
+  {
+    "routine_name": "upsert_participant_label_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  },
+  {
+    "routine_name": "write_field_snapshot_5m_v1",
+    "routine_type": "FUNCTION",
+    "return_type": "void"
+  }
+]
+
+Q12
+
+[
+  {
+    "function_name": "aggregate_pings_for_bucket",
+    "definition": "CREATE OR REPLACE FUNCTION public.aggregate_pings_for_bucket(target_bucket bigint)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nbegin\n  insert into public.node_agg (node_key, time_bucket, k_median, n_pings)\n  select\n    node_key,\n    time_bucket,\n    percentile_cont(0.5) within group (order by (stability_score * confidence)) as k_median,\n    count(*)::int as n_pings\n  from public.pings\n  where time_bucket = target_bucket\n  group by node_key, time_bucket\n  on conflict (node_key, time_bucket) do nothing;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "buckets_for_minutes",
+    "definition": "CREATE OR REPLACE FUNCTION public.buckets_for_minutes(p_minutes integer, p_bucket_ms bigint DEFAULT 300000)\n RETURNS integer\n LANGUAGE sql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\n  select greatest(1, floor((p_minutes * 60000.0) / p_bucket_ms))::int;\n$function$\n"
+  },
+  {
+    "function_name": "cleanup_field_state_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.cleanup_field_state_v1(p_keep_buckets integer DEFAULT 2016)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  b_ref bigint;\n  cutoff bigint;\nbegin\n  -- Determine cutoff using field_health_v2 as the “time spine”\n  select max(time_bucket) into b_ref from public.field_health_v2;\n  if b_ref is null then\n    raise notice 'cleanup_field_state_v1: no field_health_v2 rows; nothing to prune.';\n    return;\n  end if;\n\n  cutoff := b_ref - greatest(p_keep_buckets, 1);\n\n  -- Helper: only delete from tables that exist\n  -- NOTE: overlay tables only (safe to recompute)\n\n  -- reference_state\n  if to_regclass('public.reference_state') is not null then\n    execute format('delete from public.reference_state where time_bucket < %s', cutoff);\n  end if;\n\n  -- node_deviation\n  if to_regclass('public.node_deviation') is not null then\n    execute format('delete from public.node_deviation where time_bucket < %s', cutoff);\n  end if;\n\n  -- node_roles_v1\n  if to_regclass('public.node_roles_v1') is not null then\n    execute format('delete from public.node_roles_v1 where time_bucket < %s', cutoff);\n  end if;\n\n  -- field_anomalies_v1\n  if to_regclass('public.field_anomalies_v1') is not null then\n    execute format('delete from public.field_anomalies_v1 where time_bucket < %s', cutoff);\n  end if;\n\n  -- field_coupling_window_v1\n  if to_regclass('public.field_coupling_window_v1') is not null then\n    execute format('delete from public.field_coupling_window_v1 where anchor_bucket < %s', cutoff);\n  end if;\n\n  -- field_memory_v1\n  if to_regclass('public.field_memory_v1') is not null then\n    execute format('delete from public.field_memory_v1 where anchor_bucket < %s', cutoff);\n  end if;\n\n  -- field_participant_status_v1\n  if to_regclass('public.field_participant_status_v1') is not null then\n    execute format('delete from public.field_participant_status_v1 where time_bucket < %s', cutoff);\n  end if;\n\n  -- Optional: add more overlay tables here as you create them (same pattern).\n\n  raise notice 'cleanup_field_state_v1: pruned overlays older than bucket % (keep % buckets).', cutoff, p_keep_buckets;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_anomalies_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_anomalies_v1(p_bucket bigint, p_lookback integer DEFAULT 48, p_z_thresh double precision DEFAULT 3.0, p_top_n integer DEFAULT 5)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  cur record;\n  prev record;\n  hist record;\n\n  z_w double precision;\n  z_dom double precision;\n  z_sig double precision;\n  z_dref double precision;\n\n  dref double precision;\n  ddom double precision;\n\n  flags text[] := '{}';\n  top_nodes jsonb := '[]'::jsonb;\nbegin\n  -- current bucket field state\n  select\n    fh.time_bucket,\n    fh.w_eff,\n    fh.dominance,\n    fh.sigma_w,\n    fh.ref_k_raw,\n    fh.thin,\n    fr.coherence_regime\n  into cur\n  from public.field_health_v2 fh\n  left join public.field_regime_v1 fr using (time_bucket)\n  where fh.time_bucket = p_bucket;\n\n  if cur.time_bucket is null then\n    return;\n  end if;\n\n  -- previous bucket (for raw deltas)\n  select\n    fh.time_bucket,\n    fh.dominance,\n    fh.ref_k_raw\n  into prev\n  from public.field_health_v2 fh\n  where fh.time_bucket = p_bucket - 1;\n\n  dref := case when prev.time_bucket is null then null else abs(cur.ref_k_raw - prev.ref_k_raw) end;\n  ddom := case when prev.time_bucket is null then null else (cur.dominance - prev.dominance) end;\n\n  -- trailing stats (exclude current)\n  -- NOTE: we take last N buckets by DESC, then re-order ASC for correct lag()\n  with win0 as (\n    select\n      time_bucket, w_eff, dominance, sigma_w, ref_k_raw\n    from public.field_health_v2\n    where time_bucket < p_bucket\n    order by time_bucket desc\n    limit p_lookback\n  ),\n  win as (\n    select * from win0 order by time_bucket asc\n  ),\n  deltas as (\n    select\n      *,\n      abs(ref_k_raw - lag(ref_k_raw) over (order by time_bucket)) as abs_delta_ref\n    from win\n  )\n  select\n    avg(w_eff) as w_mu, nullif(stddev_samp(w_eff), 0) as w_sd,\n    avg(dominance) as dom_mu, nullif(stddev_samp(dominance), 0) as dom_sd,\n    avg(sigma_w) as sig_mu, nullif(stddev_samp(sigma_w), 0) as sig_sd,\n    avg(abs_delta_ref) as dref_mu,\n    nullif(stddev_samp(abs_delta_ref), 0) as dref_sd\n  into hist\n  from deltas\n  where abs_delta_ref is not null;\n\n  z_w    := case when hist.w_sd   is null then null else (cur.w_eff     - hist.w_mu)   / hist.w_sd end;\n  z_dom  := case when hist.dom_sd is null then null else (cur.dominance - hist.dom_mu) / hist.dom_sd end;\n  z_sig  := case when hist.sig_sd is null then null else (cur.sigma_w   - hist.sig_mu) / hist.sig_sd end;\n  z_dref := case when hist.dref_sd is null or dref is null then null else (dref - hist.dref_mu) / hist.dref_sd end;\n\n  -- flags\n  if z_w is not null and abs(z_w) >= p_z_thresh then flags := array_append(flags, 'W_EFF_Z'); end if;\n  if z_dom is not null and abs(z_dom) >= p_z_thresh then flags := array_append(flags, 'DOMINANCE_Z'); end if;\n  if z_sig is not null and abs(z_sig) >= p_z_thresh then flags := array_append(flags, 'SIGMA_W_Z'); end if;\n  if z_dref is not null and z_dref >= p_z_thresh then flags := array_append(flags, 'REF_SHIFT_Z'); end if;\n\n  if cur.thin then flags := array_append(flags, 'THIN'); end if;\n  if (ddom is not null and abs(ddom) >= 0.15) then flags := array_append(flags, 'DOMINANCE_JUMP'); end if;\n  if (dref is not null and dref >= 0.02) then flags := array_append(flags, 'REFERENCE_SHIFT'); end if;\n\n  -- top nodes driving reference movement this bucket (by weighted deviation)\n  with ref as (\n    select fh.time_bucket, fh.ref_k_raw\n    from public.field_health_v2 fh\n    where fh.time_bucket = p_bucket\n  ),\n  scored as (\n    select\n      fc.node_key,\n      fc.w_share,\n      fc.k_median,\n      r.ref_k_raw,\n      (fc.w_share * abs(fc.k_median - r.ref_k_raw)) as contrib_dev\n    from public.field_contrib_v1 fc\n    join ref r using (time_bucket)\n    where fc.time_bucket = p_bucket\n    order by (fc.w_share * abs(fc.k_median - r.ref_k_raw)) desc\n    limit p_top_n\n  )\n  select coalesce(\n    jsonb_agg(\n      jsonb_build_object(\n        'node_key', node_key,\n        'w_share', w_share,\n        'k', k_median,\n        'contrib_dev', contrib_dev\n      )\n    ),\n    '[]'::jsonb\n  )\n  into top_nodes\n  from scored;\n\n  insert into public.field_anomalies_v1 (\n    time_bucket, computed_at,\n    z_w_eff, z_dominance, z_sigma_w, z_abs_delta_ref,\n    delta_ref, delta_dominance,\n    thin, coherence_regime,\n    flags, top_nodes\n  )\n  values (\n    p_bucket, now(),\n    z_w, z_dom, z_sig, z_dref,\n    dref, ddom,\n    cur.thin, cur.coherence_regime,\n    flags, top_nodes\n  )\n  on conflict (time_bucket) do update set\n    computed_at = excluded.computed_at,\n    z_w_eff = excluded.z_w_eff,\n    z_dominance = excluded.z_dominance,\n    z_sigma_w = excluded.z_sigma_w,\n    z_abs_delta_ref = excluded.z_abs_delta_ref,\n    delta_ref = excluded.delta_ref,\n    delta_dominance = excluded.delta_dominance,\n    thin = excluded.thin,\n    coherence_regime = excluded.coherence_regime,\n    flags = excluded.flags,\n    top_nodes = excluded.top_nodes;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_coupling_for_bucket_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_coupling_for_bucket_v1(p_bucket bigint, p_max_nodes integer DEFAULT 30, p_sigma_floor double precision DEFAULT 0.01, p_min_w_share double precision DEFAULT 0.02, p_min_pings integer DEFAULT 3)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  ctx record;\n  ctx_sigma double precision;\n  ctx_thin boolean;\nbegin\n  -- field context\n  select time_bucket, sigma_w, thin\n  into ctx\n  from public.field_health_v2\n  where time_bucket = p_bucket;\n\n  if ctx.time_bucket is null then\n    return;\n  end if;\n\n  ctx_sigma := coalesce(ctx.sigma_w, 0.0);\n  ctx_thin  := coalesce(ctx.thin, true);\n\n  -- Build node set (bounded), then generate unique pairs\n  with nodes0 as (\n    select\n      fc.time_bucket,\n      fc.node_key,\n      fc.k_median::double precision as k,\n      fc.w_share::double precision as w_share,\n      na.n_pings::int as n_pings\n    from public.field_contrib_v1 fc\n    join public.node_agg na\n      on na.time_bucket = fc.time_bucket\n     and na.node_key = fc.node_key\n    where fc.time_bucket = p_bucket\n      and fc.w_share >= p_min_w_share\n      and na.n_pings >= p_min_pings\n    order by fc.w_share desc\n    limit p_max_nodes\n  ),\n  nodes as (\n    select * from nodes0 order by node_key asc\n  ),\n  pairs as (\n    select\n      a.time_bucket,\n      a.node_key as node_a,\n      b.node_key as node_b,\n      a.k as k_a,\n      b.k as k_b,\n      abs(a.k - b.k) as delta_k,\n      a.w_share as w_share_a,\n      b.w_share as w_share_b,\n      least(a.w_share, b.w_share) as w_pair\n    from nodes a\n    join nodes b\n      on a.node_key < b.node_key\n  ),\n  scored as (\n    select\n      p.*,\n      ctx_sigma::double precision as sigma_w,\n      ctx_thin::boolean as thin,\n      exp( - (p.delta_k / greatest(ctx_sigma::double precision, p_sigma_floor)) ) as coupling_score\n    from pairs p\n  )\n  insert into public.field_coupling_v1 (\n    time_bucket, node_a, node_b,\n    k_a, k_b, delta_k,\n    w_share_a, w_share_b, w_pair,\n    sigma_w, thin,\n    coupling_score,\n    computed_at\n  )\n  select\n    time_bucket, node_a, node_b,\n    k_a, k_b, delta_k,\n    w_share_a, w_share_b, w_pair,\n    sigma_w, thin,\n    coupling_score,\n    now()\n  from scored\n  on conflict (time_bucket, node_a, node_b) do update set\n    k_a = excluded.k_a,\n    k_b = excluded.k_b,\n    delta_k = excluded.delta_k,\n    w_share_a = excluded.w_share_a,\n    w_share_b = excluded.w_share_b,\n    w_pair = excluded.w_pair,\n    sigma_w = excluded.sigma_w,\n    thin = excluded.thin,\n    coupling_score = excluded.coupling_score,\n    computed_at = now();\n\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_coupling_latest_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_coupling_latest_v1()\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  b bigint;\nbegin\n  select max(time_bucket) into b from public.field_health_v2;\n  if b is null then\n    raise notice 'No field_health_v2 rows yet; skipping.';\n    return;\n  end if;\n\n  perform public.compute_field_coupling_for_bucket_v1(b);\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_coupling_window_latest_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_coupling_window_latest_v1(p_window_buckets integer DEFAULT 24)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  b bigint;\nbegin\n  select max(time_bucket) into b from public.field_health_v2;\n  if b is null then\n    raise notice 'No field_health_v2 rows yet; skipping.';\n    return;\n  end if;\n\n  -- positional call removes overload ambiguity\n  perform public.compute_field_coupling_window_v1(\n    b,                 -- p_anchor_bucket\n    p_window_buckets,  -- p_window_buckets\n    30,                -- p_max_nodes\n    4,                 -- p_min_overlap\n    0.005,             -- p_min_w_share\n    1,                 -- p_min_pings\n    0.05,              -- p_mae_scale\n    0.02               -- p_comp_floor (NEW)\n  );\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_coupling_window_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_coupling_window_v1(p_anchor_bucket bigint, p_window_buckets integer DEFAULT 24, p_max_nodes integer DEFAULT 30, p_min_overlap integer DEFAULT 4, p_min_w_share double precision DEFAULT 0.005, p_min_pings integer DEFAULT 1, p_mae_scale double precision DEFAULT 0.05, p_comp_floor double precision DEFAULT 0.02)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nbegin\n  if not exists (select 1 from public.field_health_v2 where time_bucket = p_anchor_bucket) then\n    return;\n  end if;\n\n  with win as (\n    select generate_series(p_anchor_bucket - (p_window_buckets - 1), p_anchor_bucket) as time_bucket\n  ),\n  cand as (\n    select\n      fc.node_key,\n      sum(fc.w_share) as w_sum\n    from win\n    join public.field_contrib_v1 fc\n      on fc.time_bucket = win.time_bucket\n    join public.node_agg na\n      on na.time_bucket = fc.time_bucket and na.node_key = fc.node_key\n    where fc.w_share >= p_min_w_share\n      and na.n_pings >= p_min_pings\n    group by fc.node_key\n    order by sum(fc.w_share) desc\n    limit p_max_nodes\n  ),\n  series as (\n    select\n      fc.time_bucket,\n      fc.node_key,\n      na.k_median::double precision as k,\n      fc.w_share::double precision as w_share\n    from public.field_contrib_v1 fc\n    join public.node_agg na\n      on na.time_bucket = fc.time_bucket and na.node_key = fc.node_key\n    join cand c\n      on c.node_key = fc.node_key\n    where fc.time_bucket between (p_anchor_bucket - (p_window_buckets - 1)) and p_anchor_bucket\n      and fc.w_share >= p_min_w_share\n      and na.n_pings >= p_min_pings\n  ),\n  pairs as (\n    select a.node_key as node_a, b.node_key as node_b\n    from cand a\n    join cand b on a.node_key < b.node_key\n  ),\n  overlap as (\n    select\n      p.node_a,\n      p.node_b,\n      s1.time_bucket,\n      s1.k as k_a,\n      s2.k as k_b,\n      abs(s1.k - s2.k) as abs_err,\n      least(s1.w_share, s2.w_share) as w_pair\n    from pairs p\n    join series s1 on s1.node_key = p.node_a\n    join series s2 on s2.node_key = p.node_b and s2.time_bucket = s1.time_bucket\n  ),\n  agg as (\n    select\n      node_a,\n      node_b,\n      count(*)::int as overlap_buckets,\n      avg(abs_err) as mae_k,\n      avg(w_pair) as w_pair_avg,\n      corr(k_a, k_b) as corr_k\n    from overlap\n    group by node_a, node_b\n    having count(*) >= p_min_overlap\n  ),\n  scored as (\n    select\n      node_a,\n      node_b,\n      overlap_buckets,\n      corr_k,\n      mae_k,\n      coalesce(w_pair_avg, 0.0) as w_pair_avg,\n\n      -- components in [0,1], floored to avoid hard-zero\n      greatest(p_comp_floor, least(1.0, (coalesce(corr_k, 0.0) + 1.0) / 2.0)) as corr_component,\n      greatest(p_comp_floor, exp( - (coalesce(mae_k, 1.0) / greatest(p_mae_scale, 1e-6)) )) as mae_component,\n      greatest(p_comp_floor, (1.0 - exp( - (overlap_buckets::double precision / greatest(p_min_overlap::double precision, 1.0)) ))) as overlap_component,\n      greatest(p_comp_floor, least(1.0, coalesce(w_pair_avg, 0.0))) as weight_component\n    from agg\n  ),\n  final as (\n    select\n      node_a,\n      node_b,\n      overlap_buckets,\n      corr_k,\n      mae_k,\n      w_pair_avg,\n      greatest(0.0, least(1.0,\n        power(corr_component, 0.35) *\n        power(mae_component, 0.35) *\n        power(overlap_component, 0.20) *\n        power(weight_component, 0.10)\n      )) as coupling_score\n    from scored\n  )\n  insert into public.field_coupling_window_v1 (\n    anchor_bucket, window_buckets,\n    node_a, node_b,\n    overlap_buckets, corr_k, mae_k, w_pair_avg,\n    coupling_score,\n    computed_at\n  )\n  select\n    p_anchor_bucket, p_window_buckets,\n    node_a, node_b,\n    overlap_buckets, corr_k, mae_k, w_pair_avg,\n    coupling_score,\n    now()\n  from final\n  on conflict (anchor_bucket, window_buckets, node_a, node_b) do update set\n    overlap_buckets = excluded.overlap_buckets,\n    corr_k = excluded.corr_k,\n    mae_k = excluded.mae_k,\n    w_pair_avg = excluded.w_pair_avg,\n    coupling_score = excluded.coupling_score,\n    computed_at = now();\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_memory_latest_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_memory_latest_v1(p_short_buckets integer DEFAULT 12, p_long_buckets integer DEFAULT 288)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  b bigint;\nbegin\n  select max(time_bucket) into b from public.field_health_v2;\n  if b is null then\n    raise notice 'No field_health_v2 rows yet; skipping.';\n    return;\n  end if;\n\n  perform public.compute_field_memory_v1(b, p_short_buckets, p_long_buckets);\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_memory_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_memory_v1(p_anchor_bucket bigint, p_short_buckets integer DEFAULT 12, p_long_buckets integer DEFAULT 288)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  ctx record;\n\n  -- aggregates\n  s record;\n  l record;\n\n  -- derived\n  drift_ratio double precision;\n  vol_ratio double precision;\n\n  -- entropy\n  ent_s double precision;\n  ent_l double precision;\n\n  -- score pieces\n  thin_gate double precision;\n  stability_term double precision;\n  churn_term double precision;\n  dom_penalty double precision;\n\n  score double precision;\n\n  regimes_s jsonb := '[]'::jsonb;\n  regimes_l jsonb := '[]'::jsonb;\nbegin\n  -- ensure anchor exists\n  select time_bucket into ctx\n  from public.field_health_v2\n  where time_bucket = p_anchor_bucket;\n\n  if ctx.time_bucket is null then\n    return;\n  end if;\n\n  -- -------------------------\n  -- SHORT window stats\n  -- -------------------------\n  with win0 as (\n    select\n      fh.time_bucket,\n      fh.thin,\n      fh.w_eff,\n      fh.dominance,\n      fh.sigma_w,\n      fh.ref_k_raw,\n      fr.coherence_regime\n    from public.field_health_v2 fh\n    left join public.field_regime_v1 fr using (time_bucket)\n    where fh.time_bucket between (p_anchor_bucket - (p_short_buckets - 1)) and p_anchor_bucket\n    order by fh.time_bucket asc\n  ),\n  deltas as (\n    select\n      *,\n      abs(ref_k_raw - lag(ref_k_raw) over (order by time_bucket)) as dref,\n      (case when coherence_regime is distinct from lag(coherence_regime) over (order by time_bucket)\n            then 1 else 0 end) as regime_flip\n    from win0\n  ),\n  agg as (\n    select\n      count(*)::int as n,\n      avg((thin::int)::double precision) as thin_pct,\n\n      avg(w_eff) as w_eff_avg,\n      avg(dominance) as dominance_avg,\n      avg(sigma_w) as sigma_w_avg,\n\n      avg(ref_k_raw) as ref_mean,\n      nullif(stddev_samp(ref_k_raw), 0) as ref_sd,\n\n      avg(dref) filter (where dref is not null) as drift_mean,\n      sum(regime_flip)::int as regime_flips\n    from deltas\n  )\n  select\n    a.n as n_short,\n    a.thin_pct as thin_pct_short,\n    a.w_eff_avg as w_eff_avg_short,\n    a.dominance_avg as dominance_avg_short,\n    a.sigma_w_avg as sigma_w_avg_short,\n    a.ref_mean as ref_mean_short,\n    a.ref_sd as ref_sd_short,\n    a.drift_mean as drift_mean_short,\n    (case when a.n > 1 then (a.regime_flips::double precision / (a.n - 1)::double precision) else 0 end) as churn_rate_short\n  into s\n  from agg a;\n\n  -- regimes histogram short\n  select coalesce(\n    jsonb_agg(jsonb_build_object('regime', coherence_regime, 'buckets', buckets, 'pct', pct) order by buckets desc),\n    '[]'::jsonb\n  )\n  into regimes_s\n  from (\n    select\n      coherence_regime,\n      count(*)::int as buckets,\n      round(100.0 * count(*)::numeric / nullif((select count(*) from public.field_regime_v1 where time_bucket between (p_anchor_bucket - (p_short_buckets - 1)) and p_anchor_bucket),0), 2) as pct\n    from public.field_regime_v1\n    where time_bucket between (p_anchor_bucket - (p_short_buckets - 1)) and p_anchor_bucket\n    group by coherence_regime\n  ) t;\n\n  -- entropy short (0..1)\n  with dist as (\n    select\n      coherence_regime,\n      count(*)::double precision as c\n    from public.field_regime_v1\n    where time_bucket between (p_anchor_bucket - (p_short_buckets - 1)) and p_anchor_bucket\n    group by coherence_regime\n  ),\n  tot as (select sum(c) as n from dist),\n  probs as (\n    select d.coherence_regime, (d.c / nullif(t.n, 0)) as p\n    from dist d cross join tot t\n    where t.n is not null and t.n > 0\n  ),\n  ent as (\n    select\n      -sum(p * ln(p)) as h,\n      count(*) as k\n    from probs\n    where p > 0\n  )\n  select\n    case\n      when e.k is null or e.k <= 1 then 0.0\n      else greatest(0.0, least(1.0, (e.h / ln(e.k::double precision))))\n    end\n  into ent_s\n  from ent e;\n\n  -- -------------------------\n  -- LONG window stats\n  -- -------------------------\n  with win0 as (\n    select\n      fh.time_bucket,\n      fh.thin,\n      fh.w_eff,\n      fh.dominance,\n      fh.sigma_w,\n      fh.ref_k_raw,\n      fr.coherence_regime\n    from public.field_health_v2 fh\n    left join public.field_regime_v1 fr using (time_bucket)\n    where fh.time_bucket between (p_anchor_bucket - (p_long_buckets - 1)) and p_anchor_bucket\n    order by fh.time_bucket asc\n  ),\n  deltas as (\n    select\n      *,\n      abs(ref_k_raw - lag(ref_k_raw) over (order by time_bucket)) as dref,\n      (case when coherence_regime is distinct from lag(coherence_regime) over (order by time_bucket)\n            then 1 else 0 end) as regime_flip\n    from win0\n  ),\n  agg as (\n    select\n      count(*)::int as n,\n      avg((thin::int)::double precision) as thin_pct,\n\n      avg(w_eff) as w_eff_avg,\n      avg(dominance) as dominance_avg,\n      avg(sigma_w) as sigma_w_avg,\n\n      avg(ref_k_raw) as ref_mean,\n      nullif(stddev_samp(ref_k_raw), 0) as ref_sd,\n\n      avg(dref) filter (where dref is not null) as drift_mean,\n      sum(regime_flip)::int as regime_flips\n    from deltas\n  )\n  select\n    a.n as n_long,\n    a.thin_pct as thin_pct_long,\n    a.w_eff_avg as w_eff_avg_long,\n    a.dominance_avg as dominance_avg_long,\n    a.sigma_w_avg as sigma_w_avg_long,\n    a.ref_mean as ref_mean_long,\n    a.ref_sd as ref_sd_long,\n    a.drift_mean as drift_mean_long,\n    (case when a.n > 1 then (a.regime_flips::double precision / (a.n - 1)::double precision) else 0 end) as churn_rate_long\n  into l\n  from agg a;\n\n  -- regimes histogram long\n  select coalesce(\n    jsonb_agg(jsonb_build_object('regime', coherence_regime, 'buckets', buckets, 'pct', pct) order by buckets desc),\n    '[]'::jsonb\n  )\n  into regimes_l\n  from (\n    select\n      coherence_regime,\n      count(*)::int as buckets,\n      round(100.0 * count(*)::numeric / nullif((select count(*) from public.field_regime_v1 where time_bucket between (p_anchor_bucket - (p_long_buckets - 1)) and p_anchor_bucket),0), 2) as pct\n    from public.field_regime_v1\n    where time_bucket between (p_anchor_bucket - (p_long_buckets - 1)) and p_anchor_bucket\n    group by coherence_regime\n  ) t;\n\n  -- entropy long (0..1)\n  with dist as (\n    select\n      coherence_regime,\n      count(*)::double precision as c\n    from public.field_regime_v1\n    where time_bucket between (p_anchor_bucket - (p_long_buckets - 1)) and p_anchor_bucket\n    group by coherence_regime\n  ),\n  tot as (select sum(c) as n from dist),\n  probs as (\n    select d.coherence_regime, (d.c / nullif(t.n, 0)) as p\n    from dist d cross join tot t\n    where t.n is not null and t.n > 0\n  ),\n  ent as (\n    select\n      -sum(p * ln(p)) as h,\n      count(*) as k\n    from probs\n    where p > 0\n  )\n  select\n    case\n      when e.k is null or e.k <= 1 then 0.0\n      else greatest(0.0, least(1.0, (e.h / ln(e.k::double precision))))\n    end\n  into ent_l\n  from ent e;\n\n  -- -------------------------\n  -- Derived ratios (robust)\n  -- -------------------------\n  drift_ratio := case\n    when l.drift_mean_long is null or l.drift_mean_long <= 1e-9 then null\n    else (coalesce(s.drift_mean_short, 0.0) / l.drift_mean_long)\n  end;\n\n  vol_ratio := case\n    when l.ref_sd_long is null or l.ref_sd_long <= 1e-9 then null\n    else (coalesce(s.ref_sd_short, 0.0) / l.ref_sd_long)\n  end;\n\n  -- -------------------------\n  -- Memory score (0..1)\n  -- High when: not thin, low drift/vol, low churn, not dominated\n  -- -------------------------\n  thin_gate := greatest(0.0, least(1.0, 1.0 - coalesce(s.thin_pct_short, 1.0))); -- thin% short penalizes\n\n  stability_term := exp(\n    - (\n        6.0 * coalesce(s.drift_mean_short, 0.0)\n      + 3.0 * coalesce(s.ref_sd_short, 0.0)\n      )\n  );\n\n  churn_term := exp( - 4.0 * coalesce(s.churn_rate_short, 0.0) );\n\n  dom_penalty := (1.0 - least(1.0, coalesce(s.dominance_avg_short, 0.0))); -- dominated => lower score\n\n  score := greatest(0.0, least(1.0,\n    thin_gate * power(stability_term, 0.45) * power(churn_term, 0.35) * power(dom_penalty, 0.20)\n  ));\n\n  insert into public.field_memory_v1 (\n    anchor_bucket, computed_at,\n    short_buckets, long_buckets,\n    n_short, n_long,\n    thin_pct_short, thin_pct_long,\n    w_eff_avg_short, w_eff_avg_long,\n    dominance_avg_short, dominance_avg_long,\n    sigma_w_avg_short, sigma_w_avg_long,\n    ref_mean_short, ref_mean_long,\n    ref_sd_short, ref_sd_long,\n    drift_mean_short, drift_mean_long,\n    drift_ratio, vol_ratio,\n    churn_rate_short, churn_rate_long,\n    entropy_short_0_1, entropy_long_0_1,\n    memory_score_0_1,\n    regimes_short, regimes_long\n  )\n  values (\n    p_anchor_bucket, now(),\n    p_short_buckets, p_long_buckets,\n    coalesce(s.n_short, 0), coalesce(l.n_long, 0),\n    s.thin_pct_short, l.thin_pct_long,\n    s.w_eff_avg_short, l.w_eff_avg_long,\n    s.dominance_avg_short, l.dominance_avg_long,\n    s.sigma_w_avg_short, l.sigma_w_avg_long,\n    s.ref_mean_short, l.ref_mean_long,\n    s.ref_sd_short, l.ref_sd_long,\n    s.drift_mean_short, l.drift_mean_long,\n    drift_ratio, vol_ratio,\n    s.churn_rate_short, l.churn_rate_long,\n    ent_s, ent_l,\n    score,\n    regimes_s, regimes_l\n  )\n  on conflict (anchor_bucket) do update set\n    computed_at = excluded.computed_at,\n    short_buckets = excluded.short_buckets,\n    long_buckets = excluded.long_buckets,\n    n_short = excluded.n_short,\n    n_long = excluded.n_long,\n    thin_pct_short = excluded.thin_pct_short,\n    thin_pct_long = excluded.thin_pct_long,\n    w_eff_avg_short = excluded.w_eff_avg_short,\n    w_eff_avg_long = excluded.w_eff_avg_long,\n    dominance_avg_short = excluded.dominance_avg_short,\n    dominance_avg_long = excluded.dominance_avg_long,\n    sigma_w_avg_short = excluded.sigma_w_avg_short,\n    sigma_w_avg_long = excluded.sigma_w_avg_long,\n    ref_mean_short = excluded.ref_mean_short,\n    ref_mean_long = excluded.ref_mean_long,\n    ref_sd_short = excluded.ref_sd_short,\n    ref_sd_long = excluded.ref_sd_long,\n    drift_mean_short = excluded.drift_mean_short,\n    drift_mean_long = excluded.drift_mean_long,\n    drift_ratio = excluded.drift_ratio,\n    vol_ratio = excluded.vol_ratio,\n    churn_rate_short = excluded.churn_rate_short,\n    churn_rate_long = excluded.churn_rate_long,\n    entropy_short_0_1 = excluded.entropy_short_0_1,\n    entropy_long_0_1 = excluded.entropy_long_0_1,\n    memory_score_0_1 = excluded.memory_score_0_1,\n    regimes_short = excluded.regimes_short,\n    regimes_long = excluded.regimes_long;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_participant_status_latest_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_participant_status_latest_v1(p_coupling_window integer DEFAULT 24)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  b bigint;\nbegin\n  select max(time_bucket) into b from public.field_health_v2;\n  if b is null then\n    raise notice 'No field_health_v2 rows yet; skipping.';\n    return;\n  end if;\n\n  perform public.compute_field_participant_status_v1(b, p_coupling_window);\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_participant_status_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_participant_status_v1(p_bucket bigint, p_coupling_window integer DEFAULT 24)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nbegin\n  -- require bucket exists\n  if not exists (select 1 from public.field_health_v2 where time_bucket = p_bucket) then\n    return;\n  end if;\n\n  -- best partner per node from windowed coupling (if exists)\n  with fh as (\n    select time_bucket, ref_k_raw as ref_k, sigma_w, dominance, thin\n    from public.field_health_v2\n    where time_bucket = p_bucket\n  ),\n  fr as (\n    select time_bucket, coherence_regime\n    from public.field_regime_v1\n    where time_bucket = p_bucket\n  ),\n  base as (\n    select\n      fc.time_bucket,\n      fc.node_key,\n      na.n_pings,\n      fc.k_median::double precision as k,\n      fc.w_share::double precision as w_share,\n      fc.w::double precision as w,\n      coalesce(ts.tau, 0.0)::double precision as tau,\n      ts.k_bar::double precision as k_bar,\n      nr.role\n    from public.field_contrib_v1 fc\n    join public.node_agg na\n      on na.time_bucket = fc.time_bucket and na.node_key = fc.node_key\n    left join public.trust_state ts\n      on ts.node_key = fc.node_key\n    left join public.node_roles_v1 nr\n      on nr.time_bucket = fc.time_bucket and nr.node_key = fc.node_key\n    where fc.time_bucket = p_bucket\n  ),\n  cwin as (\n    select *\n    from public.field_coupling_window_v1\n    where anchor_bucket = p_bucket\n      and window_buckets = p_coupling_window\n  ),\n  -- make coupling edges node-centric\n  edges as (\n    select\n      node_a as src,\n      node_b as dst,\n      coupling_score,\n      overlap_buckets,\n      corr_k,\n      mae_k,\n      w_pair_avg\n    from cwin\n    union all\n    select\n      node_b as src,\n      node_a as dst,\n      coupling_score,\n      overlap_buckets,\n      corr_k,\n      mae_k,\n      w_pair_avg\n    from cwin\n  ),\n  ranked as (\n    select\n      e.*,\n      row_number() over (partition by e.src order by e.coupling_score desc, e.overlap_buckets desc) as rn\n    from edges e\n  ),\n  best as (\n    select\n      src as node_key,\n      dst as best_partner,\n      coupling_score as best_coupling_score,\n      overlap_buckets as best_overlap_buckets,\n      corr_k as best_corr_k,\n      mae_k as best_mae_k,\n      w_pair_avg as best_w_pair_avg,\n      case\n        when corr_k is null then 'UNKNOWN'\n        when corr_k >= 0.3 then 'IN_PHASE'\n        when corr_k <= -0.3 then 'ANTI_PHASE'\n        else 'MIXED'\n      end as best_polarity\n    from ranked\n    where rn = 1\n  )\n  insert into public.field_participant_status_v1 (\n    time_bucket, node_key,\n    n_pings, k, w_share, w,\n    tau, k_bar,\n    role,\n    best_partner, best_coupling_score, best_overlap_buckets, best_corr_k, best_mae_k, best_w_pair_avg, best_polarity,\n    ref_k, sigma_w, dominance, thin, coherence_regime,\n    computed_at\n  )\n  select\n    b.time_bucket, b.node_key,\n    b.n_pings, b.k, b.w_share, b.w,\n    b.tau, b.k_bar,\n    b.role,\n    be.best_partner, be.best_coupling_score, be.best_overlap_buckets, be.best_corr_k, be.best_mae_k, be.best_w_pair_avg, be.best_polarity,\n    fh.ref_k, fh.sigma_w, fh.dominance, fh.thin, fr.coherence_regime,\n    now()\n  from base b\n  cross join fh\n  left join fr on fr.time_bucket = fh.time_bucket\n  left join best be on be.node_key = b.node_key\n  on conflict (time_bucket, node_key) do update set\n    n_pings = excluded.n_pings,\n    k = excluded.k,\n    w_share = excluded.w_share,\n    w = excluded.w,\n    tau = excluded.tau,\n    k_bar = excluded.k_bar,\n    role = excluded.role,\n    best_partner = excluded.best_partner,\n    best_coupling_score = excluded.best_coupling_score,\n    best_overlap_buckets = excluded.best_overlap_buckets,\n    best_corr_k = excluded.best_corr_k,\n    best_mae_k = excluded.best_mae_k,\n    best_w_pair_avg = excluded.best_w_pair_avg,\n    best_polarity = excluded.best_polarity,\n    ref_k = excluded.ref_k,\n    sigma_w = excluded.sigma_w,\n    dominance = excluded.dominance,\n    thin = excluded.thin,\n    coherence_regime = excluded.coherence_regime,\n    computed_at = now();\n\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_field_tick_latest_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_field_tick_latest_v1(p_bucket_ms bigint DEFAULT 300000, p_window_coupling integer DEFAULT 24, p_memory_short integer DEFAULT 12, p_memory_long integer DEFAULT 288)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  b bigint;\nbegin\n  select max(time_bucket) into b from public.node_agg;\n  if b is null then\n    raise notice 'No node_agg rows yet; skipping tick.';\n    return;\n  end if;\n\n  perform public.compute_reference_state_weighted_for_bucket(b);\n  perform public.compute_node_deviation_recent(24);\n  perform public.update_trust_state_recent(24);\n\n  perform public.compute_field_anomalies_v1(b, 48, 3.0, 5);\n\n  perform public.compute_field_coupling_window_v1(\n    p_anchor_bucket := b,\n    p_window_buckets := p_window_coupling\n  );\n\n  perform public.compute_field_memory_v1(b, p_memory_short, p_memory_long);\n\n  -- NEW: per-participant snapshot\n  perform public.compute_field_participant_status_v1(b, p_window_coupling);\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_node_deviation_recent",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_node_deviation_recent(p_lookback_buckets integer DEFAULT 24)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  bucket_ms bigint := 300000;\n  current_bucket bigint := floor(extract(epoch from now()) * 1000 / bucket_ms);\n  min_bucket bigint := current_bucket - p_lookback_buckets;\nbegin\n  insert into public.node_deviation (\n    time_bucket,\n    node_key,\n    node_stability,\n    node_confidence,\n    node_noise_class,\n    ref_stability,\n    ref_confidence,\n    ref_noise_class,\n    dispersion,\n    dev_stability,\n    dev_confidence,\n    dev_noise,\n    dev_total,\n    n_samples,\n    computed_at\n  )\n  with node_bucket as (\n    select\n      p.time_bucket,\n      p.node_key,\n      avg(p.stability_score::double precision) as node_stability,\n      avg(p.confidence::double precision) as node_confidence,\n      (\n        select p2.noise_class\n        from public.pings p2\n        where p2.time_bucket = p.time_bucket and p2.node_key = p.node_key\n        group by p2.noise_class\n        order by count(*) desc, p2.noise_class asc\n        limit 1\n      ) as node_noise_class,\n      count(*)::int as n_samples\n    from public.pings p\n    where p.time_bucket between min_bucket and current_bucket\n    group by p.time_bucket, p.node_key\n  )\n  select\n    nb.time_bucket,\n    nb.node_key,\n    nb.node_stability,\n    nb.node_confidence,\n    nb.node_noise_class,\n    rs.ref_stability,\n    rs.ref_confidence,\n    rs.ref_noise_class,\n    rs.dispersion,\n    abs(nb.node_stability - rs.ref_stability) as dev_stability,\n    abs(nb.node_confidence - rs.ref_confidence) as dev_confidence,\n    case when nb.node_noise_class = rs.ref_noise_class then 0 else 1 end as dev_noise,\n    (\n      abs(nb.node_stability - rs.ref_stability)\n      + abs(nb.node_confidence - rs.ref_confidence)\n      + (case when nb.node_noise_class = rs.ref_noise_class then 0 else 1 end) * 0.25\n    ) as dev_total,\n    nb.n_samples,\n    now()\n  from node_bucket nb\n  join public.reference_state rs\n    on rs.time_bucket = nb.time_bucket\n\n  on conflict (time_bucket, node_key) do update\n    set node_stability = excluded.node_stability,\n        node_confidence = excluded.node_confidence,\n        node_noise_class = excluded.node_noise_class,\n        ref_stability = excluded.ref_stability,\n        ref_confidence = excluded.ref_confidence,\n        ref_noise_class = excluded.ref_noise_class,\n        dispersion = excluded.dispersion,\n        dev_stability = excluded.dev_stability,\n        dev_confidence = excluded.dev_confidence,\n        dev_noise = excluded.dev_noise,\n        dev_total = excluded.dev_total,\n        n_samples = excluded.n_samples,\n        computed_at = now();\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_node_roles_for_bucket_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_node_roles_for_bucket_v1(p_bucket bigint, p_dom_share double precision DEFAULT 0.35, p_mid_share double precision DEFAULT 0.15, p_dev_sigma_mult double precision DEFAULT 0.75, p_min_pings integer DEFAULT 5)\n RETURNS void\n LANGUAGE sql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nwith fh as (\n  select time_bucket, ref_k_raw as ref_k, sigma_w, thin\n  from public.field_health_v2\n  where time_bucket = p_bucket\n),\nbase as (\n  select\n    fc.time_bucket,\n    fc.node_key,\n    fc.k_median as k,\n    fc.w_share,\n    coalesce(ts.tau, 0.0) as tau,\n    na.n_pings,\n    fh.ref_k,\n    fh.sigma_w,\n    fh.thin,\n    abs(fc.k_median - fh.ref_k) as dev_k\n  from public.field_contrib_v1 fc\n  join public.node_agg na\n    on na.time_bucket = fc.time_bucket and na.node_key = fc.node_key\n  left join public.trust_state ts\n    on ts.node_key = fc.node_key\n  join fh on fh.time_bucket = fc.time_bucket\n  where fc.time_bucket = p_bucket\n),\nlabeled as (\n  select\n    *,\n    case\n      when thin then 'THIN_FIELD'\n      when n_pings < p_min_pings or w_share < 0.05 then 'ISOLATE'\n      when w_share >= p_dom_share and dev_k <= (p_dev_sigma_mult * greatest(sigma_w, 0.0001)) then 'CONDUCTOR'\n      when w_share >= p_dom_share and dev_k >  (p_dev_sigma_mult * greatest(sigma_w, 0.0001)) then 'DOMINATOR'\n      when w_share >= p_mid_share and dev_k <= (p_dev_sigma_mult * greatest(sigma_w, 0.0001)) then 'HARMONIZER'\n      when w_share >= p_mid_share and dev_k >  (p_dev_sigma_mult * greatest(sigma_w, 0.0001)) then 'DRIFTER'\n      else 'ISOLATE'\n    end as role\n  from base\n)\ninsert into public.node_roles_v1 (\n  time_bucket, node_key, role, w_share, k, ref_k, dev_k, tau, n_pings, computed_at\n)\nselect\n  time_bucket, node_key, role, w_share, k, ref_k, dev_k, tau, n_pings, now()\nfrom labeled\non conflict (time_bucket, node_key) do update set\n  role = excluded.role,\n  w_share = excluded.w_share,\n  k = excluded.k,\n  ref_k = excluded.ref_k,\n  dev_k = excluded.dev_k,\n  tau = excluded.tau,\n  n_pings = excluded.n_pings,\n  computed_at = now();\n$function$\n"
+  },
+  {
+    "function_name": "compute_reference_for_bucket",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_reference_for_bucket(p_time_bucket bigint, p_trim_fraction double precision DEFAULT 0.2)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  stabs double precision[];\n  confs double precision[];\n  ref_stab double precision;\n  ref_conf double precision;\n  ref_noise text;\n  disp double precision;\n  n int;\nbegin\n  -- collect arrays\n  select\n    array_agg(stability_score::double precision),\n    array_agg(confidence::double precision),\n    count(*)\n  into stabs, confs, n\n  from public.pings\n  where time_bucket = p_time_bucket;\n\n  if n is null or n = 0 then\n    return;\n  end if;\n\n  ref_stab := public.trimmed_mean(stabs, p_trim_fraction);\n  ref_conf := public.trimmed_mean(confs, p_trim_fraction);\n\n  -- noise mode\n  select noise_class\n  into ref_noise\n  from public.pings\n  where time_bucket = p_time_bucket\n  group by noise_class\n  order by count(*) desc, noise_class asc\n  limit 1;\n\n  -- dispersion (population stddev)\n  select coalesce(stddev_pop(stability_score::double precision), 0)\n  into disp\n  from public.pings\n  where time_bucket = p_time_bucket;\n\n  insert into public.reference_state(\n    time_bucket, ref_stability, ref_confidence, ref_noise_class, dispersion, n_samples, computed_at\n  )\n  values(\n    p_time_bucket,\n    coalesce(ref_stab, 0.5),\n    coalesce(ref_conf, 0.5),\n    coalesce(ref_noise, 'medium'),\n    coalesce(disp, 0),\n    n,\n    now()\n  )\n  on conflict (time_bucket) do update\n    set ref_stability = excluded.ref_stability,\n        ref_confidence = excluded.ref_confidence,\n        ref_noise_class = excluded.ref_noise_class,\n        dispersion = excluded.dispersion,\n        n_samples = excluded.n_samples,\n        computed_at = now();\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_reference_recent",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_reference_recent(p_lookback_buckets integer DEFAULT 24, p_trim_fraction double precision DEFAULT 0.2)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  bucket bigint;\n  bucket_ms bigint := 300000; -- 5 minutes\n  current_bucket bigint := floor(extract(epoch from now()) * 1000 / bucket_ms);\n  min_bucket bigint := current_bucket - p_lookback_buckets;\nbegin\n  for bucket in min_bucket..current_bucket loop\n    perform public.compute_reference_for_bucket(bucket, p_trim_fraction);\n  end loop;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_reference_state_weighted_for_bucket",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_reference_state_weighted_for_bucket(b bigint)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  -- A1 thin-gated inertia parameter (already validated)\n  alpha_inertia double precision := 0.70;\n\n  -- A4 sampling reliability target (pings per full bucket)\n  n_target double precision := 100.0;\n\n  -- thin flag for this bucket\n  is_thin boolean := false;\n\n  -- raw computed values for bucket b\n  raw_ref_k double precision;\n  raw_dispersion double precision;\n  raw_n_samples integer;\n\n  -- previous bucket values\n  prev_ref_k double precision;\n  prev_dispersion double precision;\n\n  -- final output values (possibly blended)\n  out_ref_k double precision;\n  out_dispersion double precision;\nbegin\n  -- Thin flag from field telemetry (view)\n  select fh.thin\n    into is_thin\n  from public.field_health_v2 fh\n  where fh.time_bucket = b;\n\n  is_thin := coalesce(is_thin, false);\n\n  -- Compute raw weighted reference + dispersion for bucket b\n  with a as (\n    select na.time_bucket, na.node_key, na.k_median, na.n_pings\n    from public.node_agg na\n    where na.time_bucket = b\n  ),\n  t as (\n    select\n      a.*,\n      coalesce(ts.tau, 0.0) as tau,\n\n      -- Base trust weight (canon)\n      greatest(0.30, least(1.00, 0.20 + 0.80 * coalesce(ts.tau, 0.0))) as w_base,\n\n      -- A4: sampling reliability factor (gentle, bounded)\n      sqrt(least(1.0, (a.n_pings::double precision) / n_target)) as r\n\n    from a\n    left join public.trust_state ts on ts.node_key = a.node_key\n  ),\n  tw as (\n    select\n      t.*,\n      (t.w_base * t.r) as w\n    from t\n  ),\n  ref as (\n    select\n      time_bucket,\n      sum(w * k_median) / nullif(sum(w), 0) as ref_k,\n      sum(n_pings)::int as n_samples\n    from tw\n    group by time_bucket\n  ),\n  disp as (\n    select\n      r.time_bucket,\n      r.ref_k,\n      r.n_samples,\n      coalesce(sum(tw.w * abs(tw.k_median - r.ref_k)) / nullif(sum(tw.w), 0), 0) as dispersion\n    from ref r\n    join tw on tw.time_bucket = r.time_bucket\n    group by r.time_bucket, r.ref_k, r.n_samples\n  )\n  select\n    d.ref_k,\n    d.dispersion,\n    d.n_samples\n  into\n    raw_ref_k,\n    raw_dispersion,\n    raw_n_samples\n  from disp d;\n\n  if raw_ref_k is null then\n    raise notice 'No node_agg rows for bucket %; skipping reference write.', b;\n    return;\n  end if;\n\n  -- Previous bucket reference (for A1 thin inertia)\n  select\n    rs.ref_stability,\n    rs.dispersion\n  into\n    prev_ref_k,\n    prev_dispersion\n  from public.reference_state rs\n  where rs.time_bucket = b - 1;\n\n  -- A1: apply inertia ONLY when thin and previous exists\n  if is_thin and prev_ref_k is not null then\n    out_ref_k := alpha_inertia * raw_ref_k + (1 - alpha_inertia) * prev_ref_k;\n    out_dispersion := alpha_inertia * raw_dispersion\n                      + (1 - alpha_inertia) * coalesce(prev_dispersion, raw_dispersion);\n  else\n    out_ref_k := raw_ref_k;\n    out_dispersion := raw_dispersion;\n  end if;\n\n  -- Write reference_state for bucket b\n  insert into public.reference_state (\n    time_bucket, ref_stability, ref_confidence, ref_noise_class, dispersion, n_samples, computed_at\n  )\n  values (\n    b,\n    out_ref_k,\n    out_ref_k,\n    'weighted',\n    out_dispersion,\n    raw_n_samples,\n    now()\n  )\n  on conflict (time_bucket) do update set\n    ref_stability = excluded.ref_stability,\n    ref_confidence = excluded.ref_confidence,\n    ref_noise_class = excluded.ref_noise_class,\n    dispersion = excluded.dispersion,\n    n_samples = excluded.n_samples,\n    computed_at = excluded.computed_at;\n\nend;\n$function$\n"
+  },
+  {
+    "function_name": "compute_reference_state_weighted_latest",
+    "definition": "CREATE OR REPLACE FUNCTION public.compute_reference_state_weighted_latest()\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  b bigint;\nbegin\n  select max(time_bucket) into b from public.node_agg;\n  if b is null then\n    raise notice 'No node_agg rows yet; skipping.';\n    return;\n  end if;\n\n  perform public.compute_reference_state_weighted_for_bucket(b);\nend;\n$function$\n"
+  },
+  {
+    "function_name": "current_time_bucket",
+    "definition": "CREATE OR REPLACE FUNCTION public.current_time_bucket(bucket_ms bigint)\n RETURNS bigint\n LANGUAGE sql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\n  select floor(extract(epoch from now()) * 1000 / bucket_ms)::bigint;\n$function$\n"
+  },
+  {
+    "function_name": "log_governance_gate_if_changed_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.log_governance_gate_if_changed_v1()\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO 'public'\nAS $function$\ndeclare\n  g record;\n  last record;\nbegin\n  -- current gate (one row)\n  select\n    now,\n    gate_open,\n    recommended_mode,\n    gate_reason,\n    nodes_active_now,\n    vitality_score_0_1,\n    field_dominance\n  into g\n  from public.field_governance_gate_1h_v1\n  limit 1;\n\n  if g.now is null then\n    return;\n  end if;\n\n  -- last logged event (one row)\n  select\n    gate_open,\n    recommended_mode,\n    gate_reason,\n    nodes_active_now,\n    vitality_score_0_1,\n    field_dominance\n  into last\n  from public.field_governance_gate_log_v1\n  order by id desc\n  limit 1;\n\n  -- insert only if changed (or empty table)\n  if last.gate_open is distinct from g.gate_open\n     or last.recommended_mode is distinct from g.recommended_mode\n     or last.gate_reason is distinct from g.gate_reason\n     or last.nodes_active_now is distinct from g.nodes_active_now\n     or last.vitality_score_0_1 is distinct from g.vitality_score_0_1\n     or last.field_dominance is distinct from g.field_dominance\n  then\n    insert into public.field_governance_gate_log_v1 (\n      logged_at,\n      gate_open,\n      recommended_mode,\n      gate_reason,\n      nodes_active_now,\n      vitality_score_0_1,\n      field_dominance\n    ) values (\n      g.now,\n      g.gate_open,\n      g.recommended_mode,\n      g.gate_reason,\n      g.nodes_active_now::int,  -- log table is integer\n      g.vitality_score_0_1,\n      g.field_dominance::numeric\n    );\n  end if;\n\n  return;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "mech_version_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.mech_version_v1()\n RETURNS text\n LANGUAGE sql\n IMMUTABLE\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\n  select 'v0.1.1-trust-core-frozen';\n$function$\n"
+  },
+  {
+    "function_name": "refresh_field_stats_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.refresh_field_stats_v1()\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  t0 timestamptz;\n  ms integer;\n  fb bigint;\nbegin\n  if not pg_try_advisory_lock(91001) then\n    return;\n  end if;\n\n  begin\n    t0 := clock_timestamp();\n\n    refresh materialized view public.field_cadence_1h_v1_mat;\n    refresh materialized view public.field_coherence_1h_v1_mat;\n    refresh materialized view public.field_vitality_1h_v1_mat;\n    refresh materialized view public.field_governance_gate_1h_v1_mat;\n    refresh materialized view public.field_pilot_readiness_latest_v1_mat;\n    refresh materialized view public.field_ingest_health_v1_mat;\n    refresh materialized view public.field_expansion_hints_1h_v1_mat;\n    refresh materialized view public.field_summary_1h_v1_mat;\n\n    ms := (extract(epoch from (clock_timestamp() - t0)) * 1000)::int;\n\n    -- “field_bucket” is the computed bucket; coherence/pilot readiness both carry it.\n    select max(field_bucket) into fb\n    from public.field_coherence_1h_v1;\n\n    insert into public.field_refresh_telemetry_v1(field_bucket, refresh_ms, note)\n    values (fb, ms, 'refresh_field_stats_v1');\n\n  exception when others then\n    perform pg_advisory_unlock(91001);\n    raise;\n  end;\n\n  perform pg_advisory_unlock(91001);\nend;\n$function$\n"
+  },
+  {
+    "function_name": "set_participant_label_text_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.set_participant_label_text_v1(p_node_key text, p_label text, p_note text DEFAULT NULL::text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nbegin\n  -- Update if exists\n  update public.participant_labels_v1\n     set label = p_label,\n         note = p_note,\n         updated_at = now()\n   where node_key = p_node_key;\n\n  -- Insert if not exists\n  if not found then\n    insert into public.participant_labels_v1 (node_key, label, note, updated_at)\n    values (p_node_key, p_label, p_note, now());\n  end if;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "set_participant_label_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.set_participant_label_v1(p_node_key text, p_label text, p_note text DEFAULT NULL::text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nbegin\n  -- If participant_labels_v1 has a unique constraint on node_key, this will work.\n  insert into public.participant_labels_v1 (node_key, label, note, updated_at)\n  values (p_node_key, p_label, p_note, now())\n  on conflict (node_key)\n  do update set\n    label = excluded.label,\n    note = excluded.note,\n    updated_at = now();\nend;\n$function$\n"
+  },
+  {
+    "function_name": "set_participant_label_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.set_participant_label_v1(p_node_key uuid, p_label text, p_note text DEFAULT NULL::text)\n RETURNS void\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nbegin\n  insert into public.participant_labels_v1(node_key, label, note, updated_at)\n  values (p_node_key, left(trim(p_label), 80), left(trim(coalesce(p_note,'')), 200), now())\n  on conflict (node_key)\n  do update set\n    label = excluded.label,\n    note = case when excluded.note = '' then participant_labels_v1.note else excluded.note end,\n    updated_at = now();\nend;\n$function$\n"
+  },
+  {
+    "function_name": "set_updated_at_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.set_updated_at_v1()\n RETURNS trigger\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nbegin\n  new.updated_at = now();\n  return new;\nend $function$\n"
+  },
+  {
+    "function_name": "tick_field_for_bucket_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.tick_field_for_bucket_v1(b bigint)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  t0 timestamptz;\n  t1 timestamptz;\nbegin\n  t0 := clock_timestamp();\n  perform public.aggregate_pings_for_bucket(b);\n  t1 := clock_timestamp();\n  raise notice 'aggregate_pings_for_bucket: % ms', extract(epoch from (t1 - t0)) * 1000;\n\n  t0 := clock_timestamp();\n  perform public.compute_reference_state_weighted_for_bucket(b);\n  t1 := clock_timestamp();\n  raise notice 'compute_reference_state_weighted_for_bucket: % ms', extract(epoch from (t1 - t0)) * 1000;\n\n  t0 := clock_timestamp();\n  perform public.compute_node_deviation_recent(24);\n  t1 := clock_timestamp();\n  raise notice 'compute_node_deviation_recent(24): % ms', extract(epoch from (t1 - t0)) * 1000;\n\n  t0 := clock_timestamp();\n  perform public.update_trust_state_recent(24);\n  t1 := clock_timestamp();\n  raise notice 'update_trust_state_recent(24): % ms', extract(epoch from (t1 - t0)) * 1000;\n\n  t0 := clock_timestamp();\n  perform public.compute_field_anomalies_v1(b, 48, 3.0, 5);\n  t1 := clock_timestamp();\n  raise notice 'compute_field_anomalies_v1: % ms', extract(epoch from (t1 - t0)) * 1000;\n\n  t0 := clock_timestamp();\n  begin\n    perform public.compute_node_roles_for_bucket_v1(b);\n  exception when undefined_function or undefined_table then\n    null;\n  end;\n  t1 := clock_timestamp();\n  raise notice 'compute_node_roles_for_bucket_v1 (or skipped): % ms', extract(epoch from (t1 - t0)) * 1000;\n\n  t0 := clock_timestamp();\n  begin\n    perform public.compute_field_coupling_for_bucket_v1(b);\n  exception when undefined_function or undefined_table then\n    null;\n  end;\n  t1 := clock_timestamp();\n  raise notice 'compute_field_coupling_for_bucket_v1 (or skipped): % ms', extract(epoch from (t1 - t0)) * 1000;\n\n  t0 := clock_timestamp();\n  begin\n    perform public.compute_field_memory_for_bucket_v1(b);\n  exception when undefined_function or undefined_table then\n    null;\n  end;\n  t1 := clock_timestamp();\n  raise notice 'compute_field_memory_for_bucket_v1 (or skipped): % ms', extract(epoch from (t1 - t0)) * 1000;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "tick_field_latest_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.tick_field_latest_v1()\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  bucket_ms bigint := 300000;\n  b_now bigint := floor(extract(epoch from now()) * 1000 / bucket_ms);\n  b bigint := b_now - 1;\nbegin\n  perform public.tick_field_for_bucket_v1(b);\n\n  -- snapshot overlays after tick\n  perform public.refresh_field_stats_v1();\n\n  -- NEW: log governance changes if any\n  perform public.log_governance_gate_if_changed_v1();\nend;\n$function$\n"
+  },
+  {
+    "function_name": "trimmed_mean",
+    "definition": "CREATE OR REPLACE FUNCTION public.trimmed_mean(vals double precision[], trim_fraction double precision)\n RETURNS double precision\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  n int;\n  k int;\n  sorted double precision[];\n  sliced double precision[];\n  result double precision;\nbegin\n  n := coalesce(array_length(vals, 1), 0);\n  if n = 0 then\n    return null;\n  end if;\n\n  -- clamp trim_fraction to [0, 0.49]\n  if trim_fraction < 0 then trim_fraction := 0; end if;\n  if trim_fraction > 0.49 then trim_fraction := 0.49; end if;\n\n  k := floor(n * trim_fraction);\n\n  -- sort array\n  select array_agg(v order by v) into sorted\n  from unnest(vals) as v;\n\n  -- if trimming would remove everything, fall back to plain mean\n  if (n - 2*k) <= 0 then\n    select avg(v) into result from unnest(sorted) as v;\n    return result;\n  end if;\n\n  -- slice middle\n  sliced := sorted[(k+1):(n-k)];\n\n  select avg(v) into result from unnest(sliced) as v;\n  return result;\nend;\n$function$\n"
+  },
+  {
+    "function_name": "update_trust_for_bucket",
+    "definition": "CREATE OR REPLACE FUNCTION public.update_trust_for_bucket(target_bucket bigint, alpha double precision, epsilon double precision, lambda double precision, k0 double precision)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  r record;\n  prev_kbar double precision;\n  new_kbar double precision;\n  delta_tau double precision;\nbegin\n  -- Update nodes with aggregates for this bucket\n  for r in\n    select node_key, k_median\n    from public.node_agg\n    where time_bucket = target_bucket\n  loop\n    select k_bar into prev_kbar\n    from public.trust_state\n    where node_key = r.node_key;\n\n    if prev_kbar is null then\n      new_kbar := r.k_median;\n    else\n      new_kbar := alpha * r.k_median + (1 - alpha) * prev_kbar;\n    end if;\n\n    delta_tau := epsilon * (new_kbar - k0);\n\n    insert into public.trust_state (node_key, tau, k_bar, last_bucket, updated_at)\n    values (r.node_key, greatest(0, delta_tau), new_kbar, target_bucket, now())\n    on conflict (node_key) do update\n      set\n        k_bar = excluded.k_bar,\n        tau = greatest(0, public.trust_state.tau + delta_tau),\n        last_bucket = excluded.last_bucket,\n        updated_at = now();\n  end loop;\n\n  -- Silence decay for nodes that didn't report this bucket\n  update public.trust_state\n  set\n    tau = greatest(0, tau * (1 - lambda)),\n    updated_at = now()\n  where\n    (last_bucket is null or last_bucket < target_bucket)\n    and node_key not in (\n      select node_key from public.node_agg where time_bucket = target_bucket\n    );\nend;\n$function$\n"
+  },
+  {
+    "function_name": "update_trust_state_recent",
+    "definition": "CREATE OR REPLACE FUNCTION public.update_trust_state_recent(p_lookback_buckets integer DEFAULT 24)\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  bucket_ms bigint := 300000;\n  current_bucket bigint := floor(extract(epoch from now()) * 1000 / bucket_ms);\n  min_bucket bigint := current_bucket - p_lookback_buckets;\nbegin\n  with windowed as (\n    select\n      nd.node_key,\n      avg(nd.dev_total) as avg_dev,\n      avg(nd.dispersion) as avg_disp,\n      sum(nd.n_samples) as total_samples,\n      max(nd.time_bucket) as last_bucket\n    from public.node_deviation nd\n    where nd.time_bucket between min_bucket and current_bucket\n    group by nd.node_key\n  ),\n  scored as (\n    select\n      node_key,\n      last_bucket,\n      total_samples,\n\n      -- Alignment in (0,1]: smaller dev => closer to 1\n      exp(-4.0 * avg_dev) as alignment_raw,\n\n      -- Dispersion gate in (0,1]: higher dispersion => smaller updates\n      1.0 / (1.0 + 3.0 * avg_disp) as dispersion_gate\n    from windowed\n  ),\n  targets as (\n    select\n      node_key,\n      last_bucket,\n      total_samples,\n      greatest(0.0, least(1.0, alignment_raw * dispersion_gate)) as target_tau,\n      -- k_bar: interpret as \"effective coupling strength\" (0..1) for now\n      greatest(0.0, least(1.0, alignment_raw)) as target_kbar\n    from scored\n  )\n  insert into public.trust_state (node_key, tau, k_bar, last_bucket, updated_at)\n  select\n    t.node_key,\n\n    -- slow trust update: tau moves 15% toward target each run\n    (0.85 * coalesce(ts.tau, 0.5)) + (0.15 * t.target_tau) as new_tau,\n\n    -- k_bar update (even slower): moves 10% toward target alignment\n    (0.90 * coalesce(ts.k_bar, 0.5)) + (0.10 * t.target_kbar) as new_kbar,\n\n    t.last_bucket,\n    now()\n  from targets t\n  left join public.trust_state ts\n    on ts.node_key = t.node_key\n  where t.total_samples >= 10\n\n  on conflict (node_key) do update\n    set tau = excluded.tau,\n        k_bar = excluded.k_bar,\n        last_bucket = excluded.last_bucket,\n        updated_at = now();\nend;\n$function$\n"
+  },
+  {
+    "function_name": "upsert_anchor_link_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.upsert_anchor_link_v1(p_node_key text, p_anchor_kind text DEFAULT 'generic'::text, p_commitment text DEFAULT NULL::text, p_label text DEFAULT NULL::text, p_link_kind text DEFAULT 'manual'::text, p_confidence double precision DEFAULT 1.0, p_meta jsonb DEFAULT '{}'::jsonb)\n RETURNS uuid\n LANGUAGE plpgsql\n SECURITY DEFINER\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ndeclare\n  v_anchor_id uuid;\nbegin\n  if p_node_key is null or length(trim(p_node_key)) = 0 then\n    raise exception 'p_node_key is required';\n  end if;\n\n  -- 1) Find or create anchor\n  if p_commitment is not null then\n    select anchor_id into v_anchor_id\n    from public.anchors_v1\n    where commitment = p_commitment\n    limit 1;\n\n    if v_anchor_id is null then\n      insert into public.anchors_v1 (label, anchor_kind, commitment)\n      values (p_label, coalesce(p_anchor_kind, 'generic'), p_commitment)\n      returning anchor_id into v_anchor_id;\n    else\n      -- optional soft update of label/kind if provided\n      update public.anchors_v1\n        set label = coalesce(p_label, label),\n            anchor_kind = coalesce(p_anchor_kind, anchor_kind)\n      where anchor_id = v_anchor_id;\n    end if;\n  else\n    -- commitment-less anchors allowed (opaque continuity handle), but will always create new\n    insert into public.anchors_v1 (label, anchor_kind, commitment)\n    values (p_label, coalesce(p_anchor_kind, 'generic'), null)\n    returning anchor_id into v_anchor_id;\n  end if;\n\n  -- 2) Upsert active link (node_key ↔ anchor_id)\n  insert into public.node_anchor_links_v1\n    (node_key, anchor_id, link_kind, confidence, meta, is_active, unlinked_at)\n  values\n    (p_node_key, v_anchor_id, coalesce(p_link_kind,'manual'), coalesce(p_confidence,1.0), coalesce(p_meta,'{}'::jsonb), true, null)\n  on conflict (node_key, anchor_id)\n  where (is_active = true and unlinked_at is null)\n  do update set\n    link_kind   = excluded.link_kind,\n    confidence  = excluded.confidence,\n    meta        = public.node_anchor_links_v1.meta || excluded.meta,\n    linked_at   = now(),\n    is_active   = true,\n    unlinked_at = null;\n\n  return v_anchor_id;\nend $function$\n"
+  },
+  {
+    "function_name": "upsert_participant_label_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.upsert_participant_label_v1(p_node_key text, p_label text, p_note text DEFAULT NULL::text)\n RETURNS void\n LANGUAGE sql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\ninsert into public.participant_labels_v1 (node_key, label, note, updated_at)\nvalues (p_node_key, p_label, p_note, now())\non conflict (node_key) do update set\n  label = excluded.label,\n  note = excluded.note,\n  updated_at = now();\n$function$\n"
+  },
+  {
+    "function_name": "write_field_snapshot_5m_v1",
+    "definition": "CREATE OR REPLACE FUNCTION public.write_field_snapshot_5m_v1()\n RETURNS void\n LANGUAGE plpgsql\n SET search_path TO 'pg_catalog', 'public'\nAS $function$\nbegin\n  insert into public.field_snapshot_5m_v1 (\n    time_bucket,\n    bucket_ts,\n\n    coherence_regime,\n    n_nodes,\n    w_eff,\n    dominance,\n    sigma_w,\n    ref_k_raw,\n    field_weather,\n    weather_stability,\n\n    recommended_mode,\n    gate_open,\n    gate_open_strict,\n    gate_open_lenient,\n    gate_reason,\n    nodes_active_now,\n    vitality_score_0_1,\n    vitality_regime,\n    field_dominance\n  )\n  select\n    fw.time_bucket,\n    (date_trunc('hour', now())\n      + make_interval(mins => (extract(minute from now())::int / 5) * 5)\n    ) as bucket_ts,\n\n    fw.coherence_regime,\n    fw.n_nodes,\n    fw.w_eff,\n    fw.dominance,\n    fw.sigma_w,\n    fw.ref_k_raw,\n    fw.field_weather,\n    fw.weather_stability,\n\n    gg.recommended_mode,\n    gg.gate_open,\n    gg.gate_open_strict,\n    gg.gate_open_lenient,\n    gg.gate_reason,\n    gg.nodes_active_now,\n    gg.vitality_score_0_1::numeric,\n    gg.vitality_regime,\n    gg.field_dominance::numeric\n  from (\n    select *\n    from field_weather_v1\n    order by time_bucket desc\n    limit 1\n  ) fw\n  cross join field_governance_gate_1h_v1_mat gg\n  on conflict (time_bucket) do nothing;\nend;\n$function$\n"
+  }
+]
+
+--------
+
+P2
+
+https://wvyxaztfkkztjhyysttg.supabase.co/functions/v1/ingest_ping
+
+
+import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+type AnchorProof = {
+  anchor_kind?: string;          // e.g. 'phrase' | 'generic'
+  commitment?: string | null;    // opaque commitment string (preferred)
+  label?: string | null;
+  link_kind?: string;            // 'manual' | 'inferred' | ...
+  confidence?: number;           // 0..1
+  meta?: Record<string, unknown>;
+};
+
+type Ping = {
+  // accept either in payload; we’ll normalize
+  node_id?: string;
+  node_key?: string;
+
+  stability_score: number;
+  confidence: number;
+  noise_class: "low" | "medium" | "high";
+  client_version?: string;
+
+  // OPTIONAL continuity payload (server ignores if absent)
+  anchor_proof?: AnchorProof;
+};
+
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "authorization, apikey, content-type, x-pilot-key",
+  "Access-Control-Allow-Methods": "POST,OPTIONS",
+  "Access-Control-Max-Age": "86400",
+};
+
+function jsonResponse(body: unknown, status = 200) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { ...corsHeaders, "Content-Type": "application/json" },
+  });
+}
+
+serve(async (req) => {
+  if (req.method === "OPTIONS") {
+    return new Response("ok", { headers: corsHeaders });
+  }
+  if (req.method !== "POST") {
+    return jsonResponse({ ok: false, error: "POST only" }, 405);
+  }
+
+  const expectedPilotKey = Deno.env.get("PILOT_KEY") ?? "";
+  if (expectedPilotKey) {
+    const pilotKey = req.headers.get("x-pilot-key") ?? "";
+    if (pilotKey !== expectedPilotKey) {
+      return jsonResponse({ ok: false, error: "Unauthorized" }, 401);
+    }
+  }
+
+  let body: Ping;
+  try {
+    body = await req.json();
+  } catch {
+    return jsonResponse({ ok: false, error: "Invalid JSON" }, 400);
+  }
+
+  const node_key = body.node_key ?? body.node_id;
+  if (!node_key || typeof node_key !== "string") {
+    return jsonResponse({ ok: false, error: "node_key (or node_id) required" }, 400);
+  }
+
+  if (typeof body.stability_score !== "number") {
+    return jsonResponse({ ok: false, error: "stability_score required" }, 400);
+  }
+  if (typeof body.confidence !== "number") {
+    return jsonResponse({ ok: false, error: "confidence required" }, 400);
+  }
+  if (!["low", "medium", "high"].includes(body.noise_class)) {
+    return jsonResponse({ ok: false, error: "noise_class invalid" }, 400);
+  }
+  if (body.stability_score < 0 || body.stability_score > 1) {
+    return jsonResponse({ ok: false, error: "stability_score out of range" }, 400);
+  }
+  if (body.confidence < 0 || body.confidence > 1) {
+    return jsonResponse({ ok: false, error: "confidence out of range" }, 400);
+  }
+
+  const bucketMs = 300000;
+  const time_bucket = Math.floor(Date.now() / bucketMs);
+
+  const supabaseUrl = Deno.env.get("PROJECT_URL") ?? "";
+  const serviceKey = Deno.env.get("SERVICE_ROLE_KEY") ?? "";
+  if (!supabaseUrl || !serviceKey) {
+    return jsonResponse({ ok: false, error: "Missing PROJECT_URL or SERVICE_ROLE_KEY" }, 500);
+  }
+
+  // ✅ Create client BEFORE any RPC / DB calls
+  const supabase = createClient(supabaseUrl, serviceKey);
+
+  // ✅ Optional: anchor continuity link (never blocks ingest)
+  const anchorProof = body.anchor_proof;
+  if (anchorProof && typeof anchorProof === "object") {
+    const anchor_kind = anchorProof.anchor_kind ?? "generic";
+    const commitment = anchorProof.commitment ?? null;
+    const label = anchorProof.label ?? null;
+    const link_kind = anchorProof.link_kind ?? "manual";
+    const link_conf = typeof anchorProof.confidence === "number" ? anchorProof.confidence : 1.0;
+    const meta = (anchorProof.meta && typeof anchorProof.meta === "object") ? anchorProof.meta : {};
+
+    const { error: anchorErr } = await supabase.rpc("upsert_anchor_link_v1", {
+      p_node_key: node_key,
+      p_anchor_kind: anchor_kind,
+      p_commitment: commitment,
+      p_label: label,
+      p_link_kind: link_kind,
+      p_confidence: link_conf,
+      p_meta: meta,
+    });
+
+    if (anchorErr) {
+      console.error("anchor link failed", anchorErr);
+      // continue
+    }
+  }
+
+  // Existing ingest
+  const { error } = await supabase.from("pings").insert({
+    node_key,
+    time_bucket,
+    stability_score: body.stability_score,
+    confidence: body.confidence,
+    noise_class: body.noise_class,
+    client_version: body.client_version ?? "unknown",
+  });
+
+  if (error) {
+    return jsonResponse({ ok: false, error: error.message }, 500);
+  }
+
+  return jsonResponse({ ok: true, time_bucket });
+});
+
+
+////////////////////////
+
+
+https://wvyxaztfkkztjhyysttg.supabase.co/functions/v1/status
+
+
+import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers":
+    "authorization, apikey, content-type, x-pilot-key, x-node-key",
+  "Access-Control-Allow-Methods": "GET,OPTIONS",
+  "Access-Control-Max-Age": "86400",
+};
+
+function jsonResponse(body: unknown, status = 200) {
+  return new Response(JSON.stringify(body, null, 2), {
+    status,
+    headers: { ...corsHeaders, "Content-Type": "application/json" },
+  });
+}
+
+function getNodeKeyFromRequest(req: Request): string | null {
+  const url = new URL(req.url);
+
+  // Preferred: query param
+  const q = url.searchParams.get("node_key");
+  if (q && q.trim().length > 0) return q.trim();
+
+  // Optional fallback: header
+  const h = req.headers.get("x-node-key");
+  if (h && h.trim().length > 0) return h.trim();
+
+  return null;
+}
+
+/**
+ * Best-effort "latest row" ordering for field views.
+ * We try common temporal columns in descending order.
+ */
+function withBestOrder(q: any) {
+  // Try in order: logged_at, time_bucket, computed_at, updated_at, now
+  // If the column doesn't exist, supabase will error; we catch upstream and fall back.
+  return q
+    .order("logged_at", { ascending: false })
+    .order("time_bucket", { ascending: false })
+    .order("computed_at", { ascending: false })
+    .order("updated_at", { ascending: false })
+    .order("now", { ascending: false });
+}
+
+serve(async (req) => {
+  // CORS preflight (browser)
+  if (req.method === "OPTIONS") {
+    return new Response("ok", { headers: corsHeaders });
+  }
+
+  // Allow GET only
+  if (req.method !== "GET") {
+    return jsonResponse({ ok: false, error: "GET only" }, 405);
+  }
+
+  // Pilot gate
+  const pilotKey = req.headers.get("x-pilot-key") ?? "";
+  const expected = Deno.env.get("PILOT_KEY") ?? "";
+  if (expected && pilotKey !== expected) {
+    return jsonResponse({ ok: false, error: "Unauthorized" }, 401);
+  }
+
+  const supabaseUrl = Deno.env.get("PROJECT_URL") ?? "";
+  const serviceKey = Deno.env.get("SERVICE_ROLE_KEY") ?? "";
+
+  if (!supabaseUrl || !serviceKey) {
+    return jsonResponse(
+      { ok: false, error: "Missing PROJECT_URL or SERVICE_ROLE_KEY" },
+      500,
+    );
+  }
+
+  const supabase = createClient(supabaseUrl, serviceKey);
+
+  // Helper: latest 5m snapshot (new canonical ledger)
+  const latestSnapshot5m = async () => {
+    const { data, error } = await supabase
+      .from("field_snapshot_5m_latest_v1")
+      .select("*")
+      .limit(1);
+
+    if (error) throw new Error(`field_snapshot_5m_latest_v1: ${error.message}`);
+    return data && data[0] ? data[0] : null;
+  };
+
+  // Time buckets
+  const bucketMs = 300000; // 5 min
+  const nowMs = Date.now();
+  const currentBucket = Math.floor(nowMs / bucketMs);
+  const lastHourBuckets = 12;
+  const minBucket = currentBucket - lastHourBuckets;
+
+  /**
+   * Helper: "cheap count"
+   * Avoids COUNT(*) / count=exact which can blow up resources.
+   * This returns:
+   *  - n: number of rows returned under limit (0..limit)
+   *  - limited: whether we hit the cap (meaning "at least limit")
+   *
+   * NOTE: This is intentionally not exact.
+   */
+  const cheapCount = async (
+    table: string,
+    filter?: { col: string; op: string; val: any },
+    limit = 5000,
+    sampleCol = "id", // <-- default
+  ) => {
+    let q = supabase.from(table).select(sampleCol, { head: false }).limit(limit);
+    if (filter) {
+      // @ts-ignore supabase-js filter typings
+      q = q.filter(filter.col, filter.op as any, filter.val);
+    }
+    const { data, error } = await q;
+    if (error) throw new Error(`${table}: ${error.message}`);
+    const n = data?.length ?? 0;
+    return { n, limited: n >= limit };
+  };
+
+  // Helper: latest row from a table by time_bucket
+  const latestByBucket = async (table: string, cols = "*") => {
+    const { data, error } = await supabase
+      .from(table)
+      .select(cols)
+      .order("time_bucket", { ascending: false })
+      .limit(1);
+    if (error) throw new Error(`${table}: ${error.message}`);
+    return data && data[0] ? data[0] : null;
+  };
+
+  // Helper: 1 row from a view (field overlays), with best-effort ordering
+  const oneRow = async (view: string) => {
+
+
+    try {
+      // Attempt ordered fetch
+      const ordered = withBestOrder(supabase.from(view).select("*")).limit(1);
+      const { data, error } = await ordered;
+      if (!error) {
+        return {
+          ok: true as const,
+          error: null,
+          row: (data && data[0]) ? data[0] : null,
+        };
+      }
+
+      // Fallback: unordered fetch (some views may reject unknown ORDER columns)
+      const { data: d2, error: e2 } = await supabase.from(view).select("*")
+        .limit(1);
+      if (e2) return { ok: false as const, error: e2.message, row: null };
+
+      return {
+        ok: true as const,
+        error: null,
+        row: (d2 && d2[0]) ? d2[0] : null,
+      };
+    } catch (e: any) {
+      return { ok: false as const, error: String(e?.message ?? e), row: null };
+    }
+  };
+
+  // Node-specific lookups
+  const nodeKey = getNodeKeyFromRequest(req);
+
+  try {
+    // Global counts (cheap / non-exact)
+    const pingsLastHour = await cheapCount("pings", {
+      col: "time_bucket",
+      op: "gte",
+      val: minBucket,
+    });
+
+    // Snapshot-first (canonical 5m field ledger)
+    const snapshot5m = await latestSnapshot5m();
+
+    // freshness window: 7 minutes
+    const SNAPSHOT_FRESH_MS = 7 * 60 * 1000;
+
+    let snapshot5mAgeMs: number | null = null;
+    let snapshot5mFresh = false;
+
+    if (snapshot5m?.bucket_ts) {
+      const t = Date.parse(snapshot5m.bucket_ts);
+      if (!Number.isNaN(t)) {
+        snapshot5mAgeMs = Date.now() - t;
+        snapshot5mFresh = snapshot5mAgeMs >= 0 && snapshot5mAgeMs <= SNAPSHOT_FRESH_MS;
+      }
+    }
+    const pingsTotal = await cheapCount("pings");
+    const nodeAggLastHour = await cheapCount("node_agg", {
+      col: "time_bucket",
+      op: "gte",
+      val: minBucket,
+    });
+    const nodeAggTotal = await cheapCount("node_agg");
+
+    const trustNodes = await cheapCount("trust_state", undefined, 100000, "node_key");
+    const refRows = await cheapCount("reference_state", undefined, 100000, "time_bucket");
+
+    const devRows = await cheapCount("node_deviation", undefined, 100000, "time_bucket");
+
+
+    const latestRef = await latestByBucket("reference_state");
+    const latestDev = await latestByBucket("node_deviation");
+
+    const latestTrust = await supabase
+      .from("trust_state")
+      .select("node_key,tau,k_bar,last_bucket,updated_at")
+      .neq("node_key", "test_node_001") // remove this line if you prefer
+      .order("updated_at", { ascending: false })
+      .limit(1)
+      .then(({ data, error }) => {
+        if (error) throw new Error(`trust_state: ${error.message}`);
+        return data && data[0] ? data[0] : null;
+      });
+
+    // Node-specific bundle (only if node_key provided)
+    let nodeBundle: any = null;
+
+    if (nodeKey) {
+      const { data: trustRow, error: trustErr } = await supabase
+        .from("trust_state")
+        .select("node_key,tau,k_bar,last_bucket,updated_at")
+        .eq("node_key", nodeKey)
+        .maybeSingle();
+      if (trustErr) throw new Error(`trust_state(node): ${trustErr.message}`);
+
+      const { data: devRow, error: devErr } = await supabase
+        .from("node_deviation")
+        .select("*")
+        .eq("node_key", nodeKey)
+        .order("time_bucket", { ascending: false })
+        .limit(1)
+        .maybeSingle();
+      if (devErr) throw new Error(`node_deviation(node): ${devErr.message}`);
+
+      // Match reference to the deviation bucket if available,
+      // else fall back to latest reference
+      let refRow: any = null;
+      if (devRow?.time_bucket != null) {
+        const { data: r, error: refErr } = await supabase
+          .from("reference_state")
+          .select("*")
+          .eq("time_bucket", devRow.time_bucket)
+          .maybeSingle();
+        if (refErr) {
+          throw new Error(`reference_state(match): ${refErr.message}`);
+        }
+        refRow = r;
+      } else {
+        refRow = latestRef;
+      }
+
+      nodeBundle = {
+        node_key: nodeKey,
+        trust_state: trustRow ?? null,
+        node_deviation_latest: devRow ?? null,
+        reference_for_node: refRow ?? null,
+      };
+    }
+
+    // Field overlays (bundle into /status so client makes 1 call)
+    const [
+      cadence,
+      coherence,
+      vitality,
+      expansion,
+      summary,
+      gate,
+      lastGate,
+      continuity,
+      pilotReadiness,
+      ingestHealth,
+      gateModeSmoothed,
+      trustStateHealth1h,
+      gateStability,
+      voteReadiness,
+    ] = await Promise.all([
+      oneRow("field_cadence_score_1h_v1"),
+      oneRow("field_coherence_1h_v1"),
+      oneRow("field_vitality_1h_v1_mat"),
+      oneRow("field_expansion_hints_1h_v1_mat"),
+      oneRow("field_summary_1h_v1_mat"),
+      oneRow("field_governance_gate_1h_v1_mat"),
+      oneRow("field_governance_gate_last_event_v1"),
+      oneRow("field_continuity_1h_v1"),
+      oneRow("field_pilot_readiness_latest_v1_mat"),
+      oneRow("field_ingest_health_v1_mat"),
+      oneRow("field_governance_mode_smoothed_latest_v1"),
+      oneRow("field_trust_state_health_1h_v1"),
+      oneRow("field_governance_gate_stability_1h_v1"),
+      oneRow("field_vote_readiness_latest_v1"),
+    ]);
+
+    const { data: refreshData, error: refreshErr } = await supabase
+      .from("field_refresh_telemetry_v1")
+      .select("*")
+      .order("refreshed_at", { ascending: false })
+      .limit(1);
+
+    if (refreshErr) throw new Error(`field_refresh_telemetry_v1: ${refreshErr.message}`);
+    const refreshRow = refreshData?.[0] ?? null;
+
+    // Weather: prefer snapshot if fresh, else fall back to live view
+    let weatherRow: any = null;
+
+    if (snapshot5mFresh && snapshot5m) {
+      weatherRow = {
+        time_bucket: snapshot5m.time_bucket,
+        coherence_regime: snapshot5m.coherence_regime,
+        n_nodes: snapshot5m.n_nodes,
+        w_eff: snapshot5m.w_eff,
+        dominance: snapshot5m.dominance,
+        sigma_w: snapshot5m.sigma_w,
+        ref_k_raw: snapshot5m.ref_k_raw,
+        field_weather: snapshot5m.field_weather,
+        weather_stability: snapshot5m.weather_stability,
+      };
+    } else {
+      const weatherRes = await supabase
+        .from("field_weather_v1")
+        .select("*")
+        .order("time_bucket", { ascending: false })
+        .limit(1);
+
+      weatherRow = weatherRes.data?.[0] ?? null;
+    }
+
+
+    const field = {
+      cadence_1h: cadence.ok ? cadence.row : null,
+      coherence_1h: coherence.ok ? coherence.row : null,
+      vitality_1h: vitality.ok ? vitality.row : null,
+      expansion_hints_1h: expansion.ok ? expansion.row : null,
+      summary_1h: summary.ok ? summary.row : null, // <-- this is what App.tsx needs
+
+      // Governance gate: prefer snapshot surface if fresh (bucket-consistent with snapshot weather)
+      governance_gate_1h: (snapshot5mFresh && snapshot5m)
+        ? {
+          ok: true,
+          now: new Date().toISOString(),
+
+          // snapshot-derived surface
+          nodes_active_now: snapshot5m.nodes_active_now,
+          vitality_score_0_1: snapshot5m.vitality_score_0_1,
+          vitality_regime: snapshot5m.vitality_regime,
+          field_dominance: snapshot5m.field_dominance,
+
+          gate_open: snapshot5m.gate_open,
+          gate_open_strict: snapshot5m.gate_open_strict,
+          gate_open_lenient: snapshot5m.gate_open_lenient,
+          gate_reason: snapshot5m.gate_reason,
+          recommended_mode: snapshot5m.recommended_mode,
+
+          // helpful alignment info
+          field_bucket: snapshot5m.time_bucket,
+          bucket_ts: snapshot5m.bucket_ts,
+          source: "snapshot_5m",
+        }
+        : (gate.ok ? gate.row : null),
+
+      governance_gate_last_event: lastGate.ok ? lastGate.row : null,
+      continuity_1h: continuity.ok ? continuity.row : null,
+      pilot_readiness_latest: pilotReadiness.ok ? pilotReadiness.row : null,
+      ingest_health: ingestHealth.ok ? ingestHealth.row : null,
+      governance_mode_smoothed: gateModeSmoothed.ok ? gateModeSmoothed.row : null,
+
+      // debug-only; client can ignore
+      _errors: {
+        cadence: cadence.ok ? null : cadence.error,
+        coherence: coherence.ok ? null : coherence.error,
+        vitality: vitality.ok ? null : vitality.error,
+        expansion: expansion.ok ? null : expansion.error,
+        summary: summary.ok ? null : summary.error,
+        gate: gate.ok ? null : gate.error,
+        lastGate: lastGate.ok ? null : lastGate.error,
+        continuity: continuity.ok ? null : continuity.error,
+        pilotReadiness: pilotReadiness.ok ? null : pilotReadiness.error,
+        ingestHealth: ingestHealth.ok ? null : ingestHealth.error,
+      },
+    };
+
+    return jsonResponse({
+      ok: true,
+      now: new Date().toISOString(),
+      mech_version: "v0.1.1-trust-core-frozen",
+      bucket_ms: bucketMs,
+      current_bucket: currentBucket,
+      last_hour_min_bucket: minBucket,
+
+      // counts are now non-exact; include a flag so you remember
+      counts: {
+        pings_last_hour: pingsLastHour.n,
+        pings_last_hour_limited: pingsLastHour.limited,
+        node_agg_last_hour: nodeAggLastHour.n,
+        node_agg_last_hour_limited: nodeAggLastHour.limited,
+
+        trust_state_nodes: trustNodes.n,
+        reference_state_rows: refRows.n,
+        node_deviation_rows: devRows.n,
+
+        pings_total: pingsTotal.n,
+        pings_total_limited: pingsTotal.limited,
+        node_agg_total: nodeAggTotal.n,
+        node_agg_total_limited: nodeAggTotal.limited,
+      },
+
+      latest: {
+        reference_state: latestRef,
+        node_deviation: latestDev,
+        trust_state: latestTrust,
+      },
+
+      node: nodeBundle,
+
+      field: {
+        ...field,
+        trust_state_health_1h: trustStateHealth1h.ok ? trustStateHealth1h.row : null,
+        governance_gate_stability_1h: gateStability.ok ? gateStability.row : null,
+        vote_readiness: voteReadiness.ok ? voteReadiness.row : null,
+        weather: weatherRow,
+        snapshot_5m_latest: snapshot5m,
+        snapshot_5m_fresh: snapshot5mFresh,
+        snapshot_5m_age_ms: snapshot5mAgeMs,
+      },
+
+      refresh: refreshRow,
+    });
+
+  } catch (err) {
+    return jsonResponse({ ok: false, error: (err as Error).message }, 500);
+  }
+});
+
+
+-----------
+
+P3
+
+# CUSTOM SECRETS
+
+PILOT_KEY
+PROJECT_URL
+SERVICE_ROLE_KEY
+
+
+
+# DEFAULT SECRETS
+
+SUPABASE_URL
+SUPABASE_DB_URL
+SUPABASE_ANON_KEY
+SUPABASE_SERVICE_ROLE_KEY
+SB_REGION
+SB_EXECUTION_ID
+DENO_DEPLOYMENT_ID
+
+
+-----------
+
+P4
+
+1.  West US
+2.  Free
+3.  Been quiet for a while
+4.  I don't think so... I edit the ingest and status docs before deploying them, but I'd like to improive my pipeline, so if you have a recommended 
+    one im all ears... just walk me through setup step by step when we get to the stage.
+5.  No, ive not been usingt he git acitively, but we can if at this stage things are more sensistive to the changes.
+
