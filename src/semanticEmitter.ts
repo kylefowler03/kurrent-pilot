@@ -68,7 +68,8 @@ function authHeaders(): Record<string, string> {
 export type SemanticType =
     | "commitment.made"
     | "commitment.kept"
-    | "presence.attested";
+    | "presence.attested"
+    | "commitment.acknowledged";
 
 export type SemanticOk = {
     ok: true;
@@ -202,6 +203,24 @@ export async function sendCommitmentKept(
     });
 }
 
+// ---- Migration 011: recipient-side acknowledgment ----
+// Emitted by the recipient (to_party) of an open P2P commitment to confirm
+// receipt. The compute pass matches the pinger's node_key against the
+// commitment's to_party, so no recipient field is needed in the payload —
+// the auth layer enforces who is emitting the ping.
+//
+// Shape mirrors sendCommitmentKept exactly (only commitment_id required).
+// Distinct from canonical Type 4 mutual.acknowledgment (paired-signature),
+// which remains unsupported in pilot v1.
+export async function sendCommitmentAcknowledged(args: {
+    commitment_id: string;
+}): Promise<SemanticResult> {
+    return await postSemantic(
+        "commitment.acknowledged",
+        { commitment_id: args.commitment_id },
+    );
+}
+
 export type PresenceAttestedArgs = {
     /** Free-text event code (organiser-shared). Non-empty string. */
     event_id: string;
@@ -210,14 +229,27 @@ export type PresenceAttestedArgs = {
     attended_bucket?: number;
 };
 
-export async function sendPresenceAttested(
-    args: PresenceAttestedArgs,
-): Promise<SemanticResult> {
-    const attended_bucket = args.attended_bucket ?? currentBucket();
-    return postSemantic("presence.attested", {
-        event_id: args.event_id,
-        attended_bucket,
-    });
+// ---- Migration 013: rename event_id → event_code ----
+// Aligns the client with the canonical events_v1.event_code schema
+// (Migration 012). The Edge Function still accepts the legacy `event_id`
+// field via its back-compat normalization, so older clients continue to
+// work — but new code should use the canonical name.
+//
+// `attended_bucket` is now OPTIONAL server-side (the compute pass uses
+// semantic_pings_v1.time_bucket which is server-set at ingest). We keep
+// passing it so the stored payload retains the client's view of "when did
+// I tap this", which is useful for forensic traceability on the off chance
+// time_bucket and the client's clock disagree.
+export async function sendPresenceAttested(args: {
+    event_code: string;
+}): Promise<SemanticResult> {
+    return await postSemantic(
+        "presence.attested",
+        {
+            event_code: args.event_code,
+            attended_bucket: Math.floor(Date.now() / 300000),
+        },
+    );
 }
 
 // ----------------------------------------------------------------------------
