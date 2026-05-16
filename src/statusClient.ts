@@ -84,6 +84,13 @@ export async function fetchStatusBundle() {
 /**
  * RPC: set participant label (PostgREST RPC)
  */
+export type SetParticipantLabelRow = {
+  node_key: string;
+  label: string;
+  note: string | null;
+  updated_at: string;
+};
+
 export async function setParticipantLabel(nodeKey: string, label: string, note?: string) {
   try {
     const url = `${CONFIG.supabaseUrl}/rest/v1/rpc/set_participant_label_text_v1`;
@@ -105,7 +112,26 @@ export async function setParticipantLabel(nodeKey: string, label: string, note?:
     const text = await res.text();
     if (!res.ok) return { ok: false as const, status: res.status, body: text };
 
-    return { ok: true as const, status: res.status };
+    // M019a: server returns jsonb { ok, node_key, label, note, updated_at }
+    // with the canonicalized (NFC-normalized) stored form. Parse defensively
+    // so a pre-M019a server (which returns void / empty body) doesn't break
+    // the path — the `row` field is optional on success.
+    let row: SetParticipantLabelRow | null = null;
+    try {
+      const parsed = JSON.parse(text);
+      if (parsed && typeof parsed === "object") {
+        row = {
+          node_key: String(parsed.node_key ?? nodeKey),
+          label: String(parsed.label ?? label),
+          note: parsed.note == null ? null : String(parsed.note),
+          updated_at: String(parsed.updated_at ?? ""),
+        };
+      }
+    } catch {
+      // pre-M019a server: empty body. Leave row=null. ok remains true.
+    }
+
+    return { ok: true as const, status: res.status, row };
   } catch (e: any) {
     return { ok: false as const, status: -1, body: String(e?.message ?? e) };
   }
