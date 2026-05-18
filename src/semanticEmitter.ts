@@ -86,6 +86,14 @@ export type SemanticErr = {
     status: number;            // HTTP status, or -1 for network/throw
     error: string;             // server-provided error or thrown message
     raw: any;                  // body or null
+    /** Migration 019c: present only when error === "already_attested"
+     *  (HTTP 409 from the M019c partial-unique-index path on
+     *  presence.attested). Surfaces the canonical first-attestation
+     *  provenance returned by `get_existing_presence_attestation_v1`. */
+    already_attested?: {
+        first_attestation_at: string | null;
+        bucket: number | null;
+    };
 };
 
 export type SemanticResult = SemanticOk | SemanticErr;
@@ -123,15 +131,43 @@ async function postSemantic(
         }
 
         if (!res.ok || !json?.ok) {
-            return {
+            const errorMsg =
+                (json && typeof json.error === "string" && json.error) ||
+                text ||
+                `HTTP ${res.status}`;
+
+            const result: SemanticErr = {
                 ok: false,
                 status: res.status,
-                error:
-                    (json && typeof json.error === "string" && json.error) ||
-                    text ||
-                    `HTTP ${res.status}`,
+                error: errorMsg,
                 raw: json ?? text,
             };
+
+            // ---- Migration 019c ----
+            // When the Edge Function returns HTTP 409 with
+            // `error: "already_attested"` (presence.attested path on a
+            // duplicate tap), surface the canonical first-attestation
+            // provenance for typed access. The server body shape is:
+            //   { ok, error, first_attestation_at, bucket, note }
+            // Defensive coercion on both fields — server may return null
+            // for either if the RPC missed (should not happen by
+            // construction; preserved for safety).
+            if (
+                errorMsg === "already_attested" &&
+                json &&
+                typeof json === "object"
+            ) {
+                result.already_attested = {
+                    first_attestation_at:
+                        typeof json.first_attestation_at === "string"
+                            ? json.first_attestation_at
+                            : null,
+                    bucket:
+                        typeof json.bucket === "number" ? json.bucket : null,
+                };
+            }
+
+            return result;
         }
 
         return {
